@@ -1,0 +1,15 @@
+Make Dark Aether Reactor generate 8192 * Coil Temperature per tick
+
+Make recipes for MC4 stuff
+
+Make Space machinery actually work in space lol
+
+Singularity Multiblock
+	Based on Fusion Reactor
+	100 MEU/t
+	750 MEU Startup cost
+	5 minutes per recipe
+	
+en_US localization
+
+Convert Galacticraft and ExtraPlanet materials into GT Materials

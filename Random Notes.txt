@@ -1,0 +1,26 @@
+Rocket to Electricity Tier
+
+LV
+MV
+HV 1
+EV 2
+IV 3
+LuV 4
+ZPM 5
+UV 6
+UHV 7
+UEV 8
+UIV 9
+UXV 10
+OpV 10 Elec
+MAX
+
+The game will literally just crash for no reason when you start the game via IntelliJ and I have zero idea why smth with code chicken lib.
+
+Do not move the dependencies around in dependencies.gradle you will probably break something.
+It literally would not work until I put it in the specific order I did and it just magically worked
+Moving anything will probably break it, so don't do that
+
+Going to Aether crashes the game, but works fine in a non dev environment. Could be an issue with modern syntax in dev workspace, otherwise, kinda spooky ngl
+Going to other MC4 planets probably crashes the game
+

@@ -14,6 +14,7 @@ import static gregtech.api.util.GTUtility.gregtechId;
 public class MostimaMaterials
 {
     public static Material aetherCrystalDark;
+    public static Material aetherCrystalLight;
     public static Material chozodian;
     public static Material yellowChozodian;
     public static Material orangeChozodian;
@@ -27,5 +28,12 @@ public class MostimaMaterials
                     .gem()
                     .fluid()
                     .build();
+
+        MostimaMaterials.aetherCrystalLight = new Material.Builder(24001, gregtechId("aether_crystal_light"))
+                .color(0xFFFFFF)
+                .iconSet(MaterialIconSet.DIAMOND)
+                .gem()
+                .fluid()
+                .build();
     }
 }

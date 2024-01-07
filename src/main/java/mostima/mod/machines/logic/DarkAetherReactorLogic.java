@@ -1,32 +1,41 @@
 package mostima.mod.machines.logic;
 
-import gregtech.api.metatileentity.MetaTileEntity;
+import gregtech.api.capability.IHeatingCoil;
+import gregtech.api.capability.impl.MultiblockFuelRecipeLogic;
+import gregtech.api.capability.impl.MultiblockRecipeLogic;
+import gregtech.api.metatileentity.multiblock.RecipeMapMultiblockController;
+import gregtech.api.recipes.Recipe;
+import mostima.mod.machines.DarkAetherReactor;
 
-public class DarkAetherReactorLogic {
+public class DarkAetherReactorLogic extends MultiblockFuelRecipeLogic {
 
-    private int maxProgress = 0;
-    private int progressTime = 0;
-
-    private final MetaTileEntity metaTileEntity;
-    private final boolean hasMaintenance;
-
-    private boolean isActive;
-    private boolean isWorkingEnabled = true;
-    private boolean wasActiveAndNeedsUpdate;
-
-    private boolean hasNotEnoughEnergy;
-
-    public DarkAetherReactorLogic(MetaTileEntity mte)
-    {
-        this.metaTileEntity = mte;
-        this.hasMaintenance = false;
-    }
-
-    public void updateLogic()
-    {
-        if(!this.isWorkingEnabled)
-        {
-            return;
+    public DarkAetherReactorLogic(DarkAetherReactor controller) {
+        super(controller);
+        if (!(metaTileEntity instanceof IHeatingCoil)) {
+            throw new IllegalArgumentException("MetaTileEntity must be instanceof IHeatingCoil");
         }
     }
+
+    @Override
+    public int getParallelLimit() {
+        // No Parallel for Naq Reactors
+        return 1;
+    }
+
+    @Override
+    public boolean isAllowOverclocking() {
+        return false;
+    }
+
+    @Override
+    public long boostProduction(long boost)
+    {
+        return boost * ((IHeatingCoil) metaTileEntity).getCurrentTemperature();
+    }
+
+    @Override
+    public long getMaxVoltage() {
+        return Long.MAX_VALUE;
+    }
+
 }

@@ -1,4 +1,4 @@
-Make Dark Aether Reactor generate 8192 * Coil Temperature per tick
+Make Dark Aether Reactor generate 8192 * Coil Temperature per tick [done]
 
 Make recipes for MC4 stuff
 
@@ -9,7 +9,27 @@ Singularity Multiblock
 	100 MEU/t
 	750 MEU Startup cost
 	5 minutes per recipe
+	250k blocks each
 	
 en_US localization
 
 Convert Galacticraft and ExtraPlanet materials into GT Materials
+
+Space Macerator for some reason makes recipe takes an extra 2 EU/t?
+
+MC4 blueprints used to make data orbs/sticks of actual upgrades
+
+Tweak Power Beam damage values, specifically, 2d plasma being 7.5 multiplier for dmg
+
+Dark Aether stones have dark stone dust, can be centrifuged into tiny dark aether crystals
+
+Industrial furnace, turns ore into 5 molten ingots
+
+Make ender chests locked behind either OpV or MAX
+Along with Quantum Rings
+
+UHV - MAX tier batteries
+
+Recipes for Dark Aether Portal and Light Aether Portal
+
+Lategame multiblock where you can get 10 crushed ore from an ore block

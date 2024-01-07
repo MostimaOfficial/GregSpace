@@ -47,8 +47,8 @@ public class ModRecipeMaps {
             .setSound(GTSoundEvents.FURNACE);
 
     @ZenProperty
-    public static final RecipeMap<ReactorRecipeBuilder> DARK_AETHER_REACTOR = new RecipeMap<>("dark_aether_reactor", 1, 0, 0,
-            0, new ReactorRecipeBuilder(), false)
+    public static final RecipeMap<SimpleRecipeBuilder> DARK_AETHER_REACTOR = new RecipeMap<>("dark_aether_reactor", 1, 1, 0,
+            0, new SimpleRecipeBuilder(), false)
             .setSlotOverlay(false, false, GuiTextures.RESEARCH_STATION_OVERLAY)
             .setProgressBar(GuiTextures.PROGRESS_BAR_FUSION, MoveType.HORIZONTAL)
             .setSound(GTSoundEvents.SCIENCE);

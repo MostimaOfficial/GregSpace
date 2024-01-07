@@ -23,4 +23,3 @@ Moving anything will probably break it, so don't do that
 
 Going to Aether crashes the game, but works fine in a non dev environment. Could be an issue with modern syntax in dev workspace, otherwise, kinda spooky ngl
 Going to other MC4 planets probably crashes the game
-

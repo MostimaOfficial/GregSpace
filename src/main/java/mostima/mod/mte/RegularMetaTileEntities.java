@@ -1,5 +1,6 @@
 package mostima.mod.mte;
 
+import gregicality.multiblocks.api.render.GCYMTextures;
 import gregtech.api.GTValues;
 import gregtech.api.GregTechAPI;
 import gregtech.api.metatileentity.MetaTileEntity;
@@ -10,9 +11,12 @@ import gregtech.api.metatileentity.multiblock.MultiblockControllerBase;
 import gregtech.api.recipes.RecipeMap;
 import gregtech.api.util.GTUtility;
 import gregtech.client.renderer.ICubeRenderer;
-import gregtech.common.metatileentities.multi.electric.MetaTileEntityElectricBlastFurnace;
+import gregtech.client.renderer.texture.Textures;
+import gregtech.common.blocks.BlockTurbineCasing;
+import gregtech.common.blocks.MetaBlocks;
 import gregtech.integration.jei.multiblock.MultiblockInfoCategory;
 import mostima.mod.machines.DarkAetherReactor;
+import mostima.mod.recipe.ModRecipeMaps;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.Loader;
 

@@ -122,8 +122,8 @@ public class SpaceMetaTileEntities {
                 Textures.ELECTRIC_FURNACE_OVERLAY, true);
 
         // Macerator, IDs 65-79
-        /*registerMetaTileEntities(MACERATOR, 65, "space_macerator",
-                (tier, voltageName) -> new SimpleMachineMetaTileEntityResizable(
+        registerMetaTileEntities(MACERATOR, 65, "space_macerator",
+                (tier, voltageName) -> new SimpleSpaceMachineMetaTileEntityResizable(
                         gregtechId(String.format("%s.%s", "space_macerator", voltageName)),
                         ModRecipeMaps.MACERATOR_RECIPES,
                         -1,
@@ -137,14 +137,14 @@ public class SpaceMetaTileEntities {
                         true,
                         GTUtility.defaultTankSizeFunction,
                         VanillaParticleEffects.TOP_SMOKE_SMALL, null));
-        */
+
         // Alloy Smelter, IDs 80-94
         registerSimpleMetaTileEntity(ALLOY_SMELTER, 80, "space_alloy_smelter", ModRecipeMaps.ALLOY_SMELTER_RECIPES,
                 Textures.ALLOY_SMELTER_OVERLAY, true);
-        /*
+
         // Arc Furnace, IDs 95-109
         registerMetaTileEntities(ARC_FURNACE, 95, "space_arc_furnace",
-                (tier, voltageName) -> new SimpleMachineMetaTileEntityResizable(
+                (tier, voltageName) -> new SimpleSpaceMachineMetaTileEntityResizable(
                         gregtechId(String.format("%s.%s", "space_arc_furnace", voltageName)),
                         RecipeMaps.ARC_FURNACE_RECIPES,
                         -1,
@@ -153,7 +153,7 @@ public class SpaceMetaTileEntities {
                         tier,
                         false,
                         GTUtility.hvCappedTankSizeFunction));
-        */
+
         // Assembler, IDs 110-124
         registerSimpleMetaTileEntity(ASSEMBLER, 110, "space_assembler", RecipeMaps.ASSEMBLER_RECIPES,
                 Textures.ASSEMBLER_OVERLAY, true, GTUtility.hvCappedTankSizeFunction);

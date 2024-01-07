@@ -41,4 +41,6 @@ dependencies {
     implementation "codechicken:ChickenASM:1.12-1.0.2.7"
     implementation rfg.deobf(files("./libs/multipart.jar"))
 
+    runtimeOnly rfg.deobf("curse.maven:mmmmmmmmmmmm-225738:2503041")
+
 }

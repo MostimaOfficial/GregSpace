@@ -15,7 +15,7 @@ UXV 10
 OpV 10 Elec
 MAX
 
-The game will literally just crash for no reason when you start the game via IntelliJ and I have zero idea why smth with code chicken lib.
+The game will literally just randomly crash for no reason when you start the game via IntelliJ and I have zero idea why smth with code chicken lib.
 
 Do not move the dependencies around in dependencies.gradle you will probably break something.
 It literally would not work until I put it in the specific order I did and it just magically worked
@@ -23,3 +23,12 @@ Moving anything will probably break it, so don't do that
 
 Going to Aether crashes the game, but works fine in a non dev environment. Could be an issue with modern syntax in dev workspace, otherwise, kinda spooky ngl
 Going to other MC4 planets probably crashes the game
+Going to any MC4 world will most likely brick the world permenantly so don't do that
+
+GregTech JEI Plugin may just randomly decide to not work in dev environment, no idea why
+
+Do not breathe wrong, or the game might crash
+
+Material key
+4000 - 4999 - Most materials
+5000 - 5999 - Galacticraft and ExtraPlanet materials

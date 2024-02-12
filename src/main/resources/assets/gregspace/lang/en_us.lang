@@ -1,0 +1,1163 @@
+gregspace.space.notspace.error=This machine is not space capable and had crumbled to pieces when you placed it down
+
+/////////////////////////////
+/          Materials        /
+/////////////////////////////
+
+gregtech.material.heavy_duty_plate_alpha=Heavy Duty Plate α
+gregtech.material.heavy_duty_plate_beta=Heavy Duty Plate β
+gregtech.material.heavy_duty_plate_gamma=Heavy Duty Plate γ
+gregtech.material.heavy_duty_plate_delta=Heavy Duty Plate δ
+gregtech.material.heavy_duty_plate_epsilon=Heavy Duty Plate ε
+gregtech.material.heavy_duty_plate_zeta=Heavy Duty Plate ζ
+gregtech.material.heavy_duty_plate_eta=Heavy Duty Plate η
+gregtech.material.heavy_duty_plate_theta=Heavy Duty Plate θ
+gregtech.material.heavy_duty_plate_iota=Heavy Duty Plate ι
+gregtech.material.heavy_duty_plate_kappa=Heavy Duty Plate κ
+gregtech.material.heavy_duty_plate_lambda=Heavy Duty Plate λ
+
+/////////////////////////////
+/   Max Tier Machine stuff  /
+/////////////////////////////
+
+gregtech.machine.distillery.max.name=Overpowered Distillery
+gregtech.machine.distillery.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.alloy_smelter.max.name=Overpowered Alloy Smelter
+gregtech.machine.alloy_smelter.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.macerator.max.name=Overpowered Macerator
+gregtech.machine.macerator.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.circuit_assembler.max.name=Overpowered Circuit Assembler
+gregtech.machine.circuit_assembler.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.arc_furnace.max.name=Overpowered Arc Furnace
+gregtech.machine.arc_furnace.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.distillery.max.name=Overpowered Distillery
+gregtech.machine.distillery.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.assembler.max.name=Overpowered Assembler
+gregtech.machine.assembler.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.autoclave.max.name=Overpowered Autoclave
+gregtech.machine.autoclave.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.bender.max.name=Overpowered Bender
+gregtech.machine.bender.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.brewery.max.name=Overpowered Brewery
+gregtech.machine.brewery.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.canner.max.name=Overpowered Canner
+gregtech.machine.canner.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.centrifuge.max.name=Overpowered Centrifuge
+gregtech.machine.centrifuge.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.chemical_bath.max.name=Overpowered Chemical Bath
+gregtech.machine.chemical_bath.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.chemical_reactor.max.name=Overpowered Chemical Reactor
+gregtech.machine.chemical_reactor.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.compressor.max.name=Overpowered Compressor
+gregtech.machine.compressor.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.cutter.max.name=Overpowered Cutter
+gregtech.machine.cutter.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.electrolyzer.max.name=Overpowered Electrolyzer
+gregtech.machine.electrolyzer.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.electromagnetic_separator.max.name=Overpowered Electromagnetic Separator
+gregtech.machine.electromagnetic_separator.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.extractor.max.name=Overpowered Extractor
+gregtech.machine.extractor.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.extruder.max.name=Overpowered Extruder
+gregtech.machine.extruder.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.fermenter.max.name=Overpowered Fermenter
+gregtech.machine.fermenter.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.fluid_heater.max.name=Overpowered Fluid Heater
+gregtech.machine.fluid_heater.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.fluid_solidifier.max.name=Overpowered Fluid Solidifier
+gregtech.machine.fluid_solidifier.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.forge_hammer.max.name=Overpowered Forge Hammer
+gregtech.machine.forge_hammer.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.forming_press.max.name=Overpowered Forming Press
+gregtech.machine.forming_press.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.lathe.max.name=Overpowered Lathe
+gregtech.machine.lathe.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.mixer.max.name=Overpowered Mixer
+gregtech.machine.mixer.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.ore_washer.max.name=Overpowered Ore Washer
+gregtech.machine.ore_washer.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.packer.max.name=Overpowered Packer
+gregtech.machine.packer.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.polarizer.max.name=Overpowered Polarizer
+gregtech.machine.polarizer.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.laser_engraver.max.name=Overpowered Laser Engraver
+gregtech.machine.laser_engraver.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.sifter.max.name=Overpowered Sifter
+gregtech.machine.sifter.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.thermal_centrifuge.max.name=Overpowered Thermal Centrifuge
+gregtech.machine.thermal_centrifuge.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+gregtech.machine.wiremill.max.name=Overpowered Wiremill
+gregtech.machine.wiremill.max.tooltip=§aMy §oPower§r§a §lIS§r§a §l§oMAXIMUM
+
+/////////////////////////////
+/ Space Grade Machine stuff /
+/////////////////////////////
+# Electric Furnace
+gregtech.machine.space_electric_furnace.lv.name=Space Grade Basic Electric Furnace
+gregtech.machine.space_electric_furnace.lv.tooltip=Not like using a Commodore 64 §3(Required to use in Space!)
+gregtech.machine.space_electric_furnace.mv.name=Space Grade Advanced Electric Furnace
+gregtech.machine.space_electric_furnace.mv.tooltip=Not like using a Commodore 64 §3(Required to use in Space!)
+gregtech.machine.space_electric_furnace.hv.name=Space Grade Advanced Electric Furnace II
+gregtech.machine.space_electric_furnace.hv.tooltip=Not like using a Commodore 64 §3(Required to use in Space!)
+gregtech.machine.space_electric_furnace.ev.name=Space Grade Advanced Electric Furnace III
+gregtech.machine.space_electric_furnace.ev.tooltip=Not like using a Commodore 64 §3(Required to use in Space!)
+gregtech.machine.space_electric_furnace.iv.name=Space Grade Elite Electric Furnace
+gregtech.machine.space_electric_furnace.iv.tooltip=Electron Excitement Processor §3(Required to use in Space!)
+gregtech.machine.space_electric_furnace.luv.name=Space Grade Elite Electric Furnace II
+gregtech.machine.space_electric_furnace.luv.tooltip=Electron Excitement Processor §3(Required to use in Space!)
+gregtech.machine.space_electric_furnace.zpm.name=Space Grade Elite Electric Furnace III
+gregtech.machine.space_electric_furnace.zpm.tooltip=Electron Excitement Processor §3(Required to use in Space!)
+gregtech.machine.space_electric_furnace.uv.name=Space Grade Ultimate Electric Furnace
+gregtech.machine.space_electric_furnace.uv.tooltip=Atom Stimulator §3(Required to use in Space!)
+gregtech.machine.space_electric_furnace.uhv.name=Space Grade Epic Electric Furnace
+gregtech.machine.space_electric_furnace.uhv.tooltip=Atom Stimulator §3(Required to use in Space!)
+gregtech.machine.space_electric_furnace.uev.name=Space Grade Epic Electric Furnace II
+gregtech.machine.space_electric_furnace.uev.tooltip=Atom Stimulator §3(Required to use in Space!)
+gregtech.machine.space_electric_furnace.uiv.name=Space Grade Epic Electric Furnace III
+gregtech.machine.space_electric_furnace.uiv.tooltip=Atom Stimulator §3(Required to use in Space!)
+gregtech.machine.space_electric_furnace.uxv.name=Space Grade Epic Electric Furnace IV
+gregtech.machine.space_electric_furnace.uxv.tooltip=Atom Stimulator §3(Required to use in Space!)
+gregtech.machine.space_electric_furnace.opv.name=Space Grade Legendary Electric Furnace
+gregtech.machine.space_electric_furnace.opv.tooltip=Atom Stimulator §3(Required to use in Space!)
+
+# Macerator
+gregtech.machine.space_macerator.lv.name=Space Grade Basic Macerator
+gregtech.machine.space_macerator.lv.tooltip=Shredding your Ores §3(Required to use in Space!)
+gregtech.machine.space_macerator.mv.name=Space Grade Advanced Macerator
+gregtech.machine.space_macerator.mv.tooltip=Shredding your Ores §3(Required to use in Space!)
+gregtech.machine.space_macerator.hv.name=Space Grade Advanced Macerator II
+gregtech.machine.space_macerator.hv.tooltip=Shredding your Ores with Byproducts §3(Required to use in Space!)
+gregtech.machine.space_macerator.ev.name=Space Grade Advanced Macerator III
+gregtech.machine.space_macerator.ev.tooltip=Shredding your Ores with Byproducts §3(Required to use in Space!)
+gregtech.machine.space_macerator.iv.name=Space Grade Elite Macerator
+gregtech.machine.space_macerator.iv.tooltip=Blend-O-Matic 9001 §3(Required to use in Space!)
+gregtech.machine.space_macerator.luv.name=Space Grade Elite Macerator II
+gregtech.machine.space_macerator.luv.tooltip=Blend-O-Matic 9002 §3(Required to use in Space!)
+gregtech.machine.space_macerator.zpm.name=Space Grade Elite Macerator III
+gregtech.machine.space_macerator.zpm.tooltip=Blend-O-Matic 9003 §3(Required to use in Space!)
+gregtech.machine.space_macerator.uv.name=Space Grade Ultimate Macerator
+gregtech.machine.space_macerator.uv.tooltip=Shape Eliminator §3(Required to use in Space!)
+gregtech.machine.space_macerator.uhv.name=Space Grade Epic Macerator
+gregtech.machine.space_macerator.uhv.tooltip=Shape Eliminator §3(Required to use in Space!)
+gregtech.machine.space_macerator.uev.name=Space Grade Epic Macerator II
+gregtech.machine.space_macerator.uev.tooltip=Shape Eliminator §3(Required to use in Space!)
+gregtech.machine.space_macerator.uiv.name=Space Grade Epic Macerator III
+gregtech.machine.space_macerator.uiv.tooltip=Shape Eliminator §3(Required to use in Space!)
+gregtech.machine.space_macerator.uxv.name=Space Grade Epic Macerator IV
+gregtech.machine.space_macerator.uxv.tooltip=Shape Eliminator §3(Required to use in Space!)
+gregtech.machine.space_macerator.opv.name=Space Grade Legendary Macerator
+gregtech.machine.space_macerator.opv.tooltip=Shape Eliminator §3(Required to use in Space!)
+
+# Alloy Smelter
+gregtech.machine.space_alloy_smelter.lv.name=Space Grade Basic Alloy Smelter
+gregtech.machine.space_alloy_smelter.lv.tooltip=HighTech combination Smelter §3(Required to use in Space!)
+gregtech.machine.space_alloy_smelter.mv.name=Space Grade Advanced Alloy Smelter
+gregtech.machine.space_alloy_smelter.mv.tooltip=HighTech combination Smelter §3(Required to use in Space!)
+gregtech.machine.space_alloy_smelter.hv.name=Space Grade Advanced Alloy Smelter II
+gregtech.machine.space_alloy_smelter.hv.tooltip=HighTech combination Smelter §3(Required to use in Space!)
+gregtech.machine.space_alloy_smelter.ev.name=Space Grade Advanced Alloy Smelter III
+gregtech.machine.space_alloy_smelter.ev.tooltip=HighTech combination Smelter §3(Required to use in Space!)
+gregtech.machine.space_alloy_smelter.iv.name=Space Grade Elite Alloy Smelter
+gregtech.machine.space_alloy_smelter.iv.tooltip=Alloy Integrator §3(Required to use in Space!)
+gregtech.machine.space_alloy_smelter.luv.name=Space Grade Elite Alloy Smelter II
+gregtech.machine.space_alloy_smelter.luv.tooltip=Alloy Integrator §3(Required to use in Space!)
+gregtech.machine.space_alloy_smelter.zpm.name=Space Grade Elite Alloy Smelter III
+gregtech.machine.space_alloy_smelter.zpm.tooltip=Alloy Integrator §3(Required to use in Space!)
+gregtech.machine.space_alloy_smelter.uv.name=Space Grade Ultimate Alloy Smelter
+gregtech.machine.space_alloy_smelter.uv.tooltip=Metal Amalgamator §3(Required to use in Space!)
+gregtech.machine.space_alloy_smelter.uhv.name=Space Grade Epic Alloy Smelter
+gregtech.machine.space_alloy_smelter.uhv.tooltip=Metal Amalgamator §3(Required to use in Space!)
+gregtech.machine.space_alloy_smelter.uev.name=Space Grade Epic Alloy Smelter II
+gregtech.machine.space_alloy_smelter.uev.tooltip=Metal Amalgamator §3(Required to use in Space!)
+gregtech.machine.space_alloy_smelter.uiv.name=Space Grade Epic Alloy Smelter III
+gregtech.machine.space_alloy_smelter.uiv.tooltip=Metal Amalgamator §3(Required to use in Space!)
+gregtech.machine.space_alloy_smelter.uxv.name=Space Grade Epic Alloy Smelter IV
+gregtech.machine.space_alloy_smelter.uxv.tooltip=Metal Amalgamator §3(Required to use in Space!)
+gregtech.machine.space_alloy_smelter.opv.name=Space Grade Legendary Alloy Smelter
+gregtech.machine.space_alloy_smelter.opv.tooltip=Metal Amalgamator §3(Required to use in Space!)
+
+# Arc Furnace
+gregtech.machine.space_arc_furnace.lv.name=Space Grade Basic Arc Furnace
+gregtech.machine.space_arc_furnace.lv.tooltip=Who needs a Blast Furnace? §3(Required to use in Space!)
+gregtech.machine.space_arc_furnace.mv.name=Space Grade Advanced Arc Furnace
+gregtech.machine.space_arc_furnace.mv.tooltip=Who needs a Blast Furnace? §3(Required to use in Space!)
+gregtech.machine.space_arc_furnace.hv.name=Space Grade Advanced Arc Furnace II
+gregtech.machine.space_arc_furnace.hv.tooltip=Who needs a Blast Furnace? §3(Required to use in Space!)
+gregtech.machine.space_arc_furnace.ev.name=Space Grade Advanced Arc Furnace III
+gregtech.machine.space_arc_furnace.ev.tooltip=Who needs a Blast Furnace? §3(Required to use in Space!)
+gregtech.machine.space_arc_furnace.iv.name=Space Grade Elite Arc Furnace
+gregtech.machine.space_arc_furnace.iv.tooltip=Discharge Heater §3(Required to use in Space!)
+gregtech.machine.space_arc_furnace.luv.name=Space Grade Elite Arc Furnace II
+gregtech.machine.space_arc_furnace.luv.tooltip=Discharge Heater §3(Required to use in Space!)
+gregtech.machine.space_arc_furnace.zpm.name=Space Grade Elite Arc Furnace III
+gregtech.machine.space_arc_furnace.zpm.tooltip=Discharge Heater §3(Required to use in Space!)
+gregtech.machine.space_arc_furnace.uv.name=Space Grade Ultimate Arc Furnace
+gregtech.machine.space_arc_furnace.uv.tooltip=Short Circuit Heater §3(Required to use in Space!)
+gregtech.machine.space_arc_furnace.uhv.name=Space Grade Epic Arc Furnace
+gregtech.machine.space_arc_furnace.uhv.tooltip=Short Circuit Heater §3(Required to use in Space!)
+gregtech.machine.space_arc_furnace.uev.name=Space Grade Epic Arc Furnace II
+gregtech.machine.space_arc_furnace.uev.tooltip=Short Circuit Heater §3(Required to use in Space!)
+gregtech.machine.space_arc_furnace.uiv.name=Space Grade Epic Arc Furnace III
+gregtech.machine.space_arc_furnace.uiv.tooltip=Short Circuit Heater §3(Required to use in Space!)
+gregtech.machine.space_arc_furnace.uxv.name=Space Grade Epic Arc Furnace IV
+gregtech.machine.space_arc_furnace.uxv.tooltip=Short Circuit Heater §3(Required to use in Space!)
+gregtech.machine.space_arc_furnace.opv.name=Space Grade Legendary Arc Furnace
+gregtech.machine.space_arc_furnace.opv.tooltip=Short Circuit Heater §3(Required to use in Space!)
+
+# Assembler
+gregtech.machine.space_assembler.lv.name=Space Grade Basic Assembling Machine
+gregtech.machine.space_assembler.lv.tooltip=Avengers, Assemble! §3(Required to use in Space!)
+gregtech.machine.space_assembler.mv.name=Space Grade Advanced Assembling Machine
+gregtech.machine.space_assembler.mv.tooltip=Avengers, Assemble! §3(Required to use in Space!)
+gregtech.machine.space_assembler.hv.name=Space Grade Advanced Assembling Machine II
+gregtech.machine.space_assembler.hv.tooltip=Avengers, Assemble! §3(Required to use in Space!)
+gregtech.machine.space_assembler.ev.name=Space Grade Advanced Assembling Machine III
+gregtech.machine.space_assembler.ev.tooltip=Avengers, Assemble! §3(Required to use in Space!)
+gregtech.machine.space_assembler.iv.name=Space Grade Elite Assembling Machine
+gregtech.machine.space_assembler.iv.tooltip=NOT a Crafting Table §3(Required to use in Space!)
+gregtech.machine.space_assembler.luv.name=Space Grade Elite Assembling Machine II
+gregtech.machine.space_assembler.luv.tooltip=NOT a Crafting Table §3(Required to use in Space!)
+gregtech.machine.space_assembler.zpm.name=Space Grade Elite Assembling Machine III
+gregtech.machine.space_assembler.zpm.tooltip=NOT a Crafting Table §3(Required to use in Space!)
+gregtech.machine.space_assembler.uv.name=Space Grade Ultimate Assembling Machine
+gregtech.machine.space_assembler.uv.tooltip=Assembly Constructor §3(Required to use in Space!)
+gregtech.machine.space_assembler.uhv.name=Space Grade Epic Assembling Machine
+gregtech.machine.space_assembler.uhv.tooltip=Assembly Constructor §3(Required to use in Space!)
+gregtech.machine.space_assembler.uev.name=Space Grade Epic Assembling Machine II
+gregtech.machine.space_assembler.uev.tooltip=Assembly Constructor §3(Required to use in Space!)
+gregtech.machine.space_assembler.uiv.name=Space Grade Epic Assembling Machine III
+gregtech.machine.space_assembler.uiv.tooltip=Assembly Constructor §3(Required to use in Space!)
+gregtech.machine.space_assembler.uxv.name=Space Grade Epic Assembling Machine IV
+gregtech.machine.space_assembler.uxv.tooltip=Assembly Constructor §3(Required to use in Space!)
+gregtech.machine.space_assembler.opv.name=Space Grade Legendary Assembling Machine
+gregtech.machine.space_assembler.opv.tooltip=Assembly Constructor §3(Required to use in Space!)
+
+# Autoclave
+gregtech.machine.space_autoclave.lv.name=Space Grade Basic Autoclave
+gregtech.machine.space_autoclave.lv.tooltip=Crystallizing your Dusts §3(Required to use in Space!)
+gregtech.machine.space_autoclave.mv.name=Space Grade Advanced Autoclave
+gregtech.machine.space_autoclave.mv.tooltip=Crystallizing your Dusts §3(Required to use in Space!)
+gregtech.machine.space_autoclave.hv.name=Space Grade Advanced Autoclave II
+gregtech.machine.space_autoclave.hv.tooltip=Crystallizing your Dusts §3(Required to use in Space!)
+gregtech.machine.space_autoclave.ev.name=Space Grade Advanced Autoclave III
+gregtech.machine.space_autoclave.ev.tooltip=Crystallizing your Dusts §3(Required to use in Space!)
+gregtech.machine.space_autoclave.iv.name=Space Grade Elite Autoclave
+gregtech.machine.space_autoclave.iv.tooltip=Pressure Cooker §3(Required to use in Space!)
+gregtech.machine.space_autoclave.luv.name=Space Grade Elite Autoclave II
+gregtech.machine.space_autoclave.luv.tooltip=Pressure Cooker §3(Required to use in Space!)
+gregtech.machine.space_autoclave.zpm.name=Space Grade Elite Autoclave III
+gregtech.machine.space_autoclave.zpm.tooltip=Pressure Cooker §3(Required to use in Space!)
+gregtech.machine.space_autoclave.uv.name=Space Grade Ultimate Autoclave
+gregtech.machine.space_autoclave.uv.tooltip=Encumbrance Unit §3(Required to use in Space!)
+gregtech.machine.space_autoclave.uhv.name=Space Grade Epic Autoclave
+gregtech.machine.space_autoclave.uhv.tooltip=Encumbrance Unit §3(Required to use in Space!)
+gregtech.machine.space_autoclave.uev.name=Space Grade Epic Autoclave II
+gregtech.machine.space_autoclave.uev.tooltip=Encumbrance Unit §3(Required to use in Space!)
+gregtech.machine.space_autoclave.uiv.name=Space Grade Epic Autoclave III
+gregtech.machine.space_autoclave.uiv.tooltip=Encumbrance Unit §3(Required to use in Space!)
+gregtech.machine.space_autoclave.uxv.name=Space Grade Epic Autoclave IV
+gregtech.machine.space_autoclave.uxv.tooltip=Encumbrance Unit §3(Required to use in Space!)
+gregtech.machine.space_autoclave.opv.name=Space Grade Legendary Autoclave
+gregtech.machine.space_autoclave.opv.tooltip=Encumbrance Unit §3(Required to use in Space!)
+
+# Bending Machine
+gregtech.machine.space_bender.lv.name=Space Grade Basic Bending Machine
+gregtech.machine.space_bender.lv.tooltip=Boo, he's bad! We want BENDER!!! §3(Required to use in Space!)
+gregtech.machine.space_bender.mv.name=Space Grade Advanced Bending Machine
+gregtech.machine.space_bender.mv.tooltip=Boo, he's bad! We want BENDER!!! §3(Required to use in Space!)
+gregtech.machine.space_bender.hv.name=Space Grade Advanced Bending Machine II
+gregtech.machine.space_bender.hv.tooltip=Boo, he's bad! We want BENDER!!! §3(Required to use in Space!)
+gregtech.machine.space_bender.ev.name=Space Grade Advanced Bending Machine III
+gregtech.machine.space_bender.ev.tooltip=Boo, he's bad! We want BENDER!!! §3(Required to use in Space!)
+gregtech.machine.space_bender.iv.name=Space Grade Elite Bending Machine
+gregtech.machine.space_bender.iv.tooltip=Shape Distorter §3(Required to use in Space!)
+gregtech.machine.space_bender.luv.name=Space Grade Elite Bending Machine II
+gregtech.machine.space_bender.luv.tooltip=Shape Distorter §3(Required to use in Space!)
+gregtech.machine.space_bender.zpm.name=Space Grade Elite Bending Machine III
+gregtech.machine.space_bender.zpm.tooltip=Shape Distorter §3(Required to use in Space!)
+gregtech.machine.space_bender.uv.name=Space Grade Ultimate Bending Machine
+gregtech.machine.space_bender.uv.tooltip=Matter Deformer §3(Required to use in Space!)
+gregtech.machine.space_bender.uhv.name=Space Grade Epic Bending Machine
+gregtech.machine.space_bender.uhv.tooltip=Matter Deformer §3(Required to use in Space!)
+gregtech.machine.space_bender.uev.name=Space Grade Epic Bending Machine II
+gregtech.machine.space_bender.uev.tooltip=Matter Deformer §3(Required to use in Space!)
+gregtech.machine.space_bender.uiv.name=Space Grade Epic Bending Machine III
+gregtech.machine.space_bender.uiv.tooltip=Matter Deformer §3(Required to use in Space!)
+gregtech.machine.space_bender.uxv.name=Space Grade Epic Bending Machine IV
+gregtech.machine.space_bender.uxv.tooltip=Matter Deformer §3(Required to use in Space!)
+gregtech.machine.space_bender.opv.name=Space Grade Legendary Bending Machine
+gregtech.machine.space_bender.opv.tooltip=Matter Deformer §3(Required to use in Space!)
+
+# Brewery
+gregtech.machine.space_brewery.lv.name=Space Grade Basic Brewery
+gregtech.machine.space_brewery.lv.tooltip=Compact and efficient potion brewing §3(Required to use in Space!)
+gregtech.machine.space_brewery.mv.name=Space Grade Advanced Brewery
+gregtech.machine.space_brewery.mv.tooltip=Compact and efficient potion brewing §3(Required to use in Space!)
+gregtech.machine.space_brewery.hv.name=Space Grade Advanced Brewery II
+gregtech.machine.space_brewery.hv.tooltip=Compact and efficient potion brewing §3(Required to use in Space!)
+gregtech.machine.space_brewery.ev.name=Space Grade Advanced Brewery III
+gregtech.machine.space_brewery.ev.tooltip=Compact and efficient potion brewing §3(Required to use in Space!)
+gregtech.machine.space_brewery.iv.name=Space Grade Elite Brewery
+gregtech.machine.space_brewery.iv.tooltip=Brewing your Drinks §3(Required to use in Space!)
+gregtech.machine.space_brewery.luv.name=Space Grade Elite Brewery II
+gregtech.machine.space_brewery.luv.tooltip=Brewing your Drinks §3(Required to use in Space!)
+gregtech.machine.space_brewery.zpm.name=Space Grade Elite Brewery III
+gregtech.machine.space_brewery.zpm.tooltip=Brewing your Drinks §3(Required to use in Space!)
+gregtech.machine.space_brewery.uv.name=Space Grade Ultimate Brewery
+gregtech.machine.space_brewery.uv.tooltip=Brew Rusher §3(Required to use in Space!)
+gregtech.machine.space_brewery.uhv.name=Space Grade Epic Brewery
+gregtech.machine.space_brewery.uhv.tooltip=Brew Rusher §3(Required to use in Space!)
+gregtech.machine.space_brewery.uev.name=Space Grade Epic Brewery II
+gregtech.machine.space_brewery.uev.tooltip=Brew Rusher §3(Required to use in Space!)
+gregtech.machine.space_brewery.uiv.name=Space Grade Epic Brewery III
+gregtech.machine.space_brewery.uiv.tooltip=Brew Rusher §3(Required to use in Space!)
+gregtech.machine.space_brewery.uxv.name=Space Grade Epic Brewery IV
+gregtech.machine.space_brewery.uxv.tooltip=Brew Rusher §3(Required to use in Space!)
+gregtech.machine.space_brewery.opv.name=Space Grade Legendary Brewery
+gregtech.machine.space_brewery.opv.tooltip=Brew Rusher §3(Required to use in Space!)
+
+gregtech.machine.space_canner.jei_description=You can fill and empty any fluid containers with the Fluid Canner (e.g. Buckets or Fluid Cells)
+
+# Canning Machine
+gregtech.machine.space_canner.lv.name=Space Grade Basic Canning Machine
+gregtech.machine.space_canner.lv.tooltip=Puts things into and out of Containers §3(Required to use in Space!)
+gregtech.machine.space_canner.mv.name=Space Grade Advanced Canning Machine
+gregtech.machine.space_canner.mv.tooltip=Puts things into and out of Containers §3(Required to use in Space!)
+gregtech.machine.space_canner.hv.name=Space Grade Advanced Canning Machine II
+gregtech.machine.space_canner.hv.tooltip=Puts things into and out of Containers §3(Required to use in Space!)
+gregtech.machine.space_canner.ev.name=Space Grade Advanced Canning Machine III
+gregtech.machine.space_canner.ev.tooltip=Puts things into and out of Containers §3(Required to use in Space!)
+gregtech.machine.space_canner.iv.name=Space Grade Elite Canning Machine
+gregtech.machine.space_canner.iv.tooltip=Can Operator §3(Required to use in Space!)
+gregtech.machine.space_canner.luv.name=Space Grade Elite Canning Machine II
+gregtech.machine.space_canner.luv.tooltip=Can Operator §3(Required to use in Space!)
+gregtech.machine.space_canner.zpm.name=Space Grade Elite Canning Machine III
+gregtech.machine.space_canner.zpm.tooltip=Can Operator §3(Required to use in Space!)
+gregtech.machine.space_canner.uv.name=Space Grade Ultimate Canning Machine
+gregtech.machine.space_canner.uv.tooltip=Can Actuator §3(Required to use in Space!)
+gregtech.machine.space_canner.uhv.name=Space Grade Epic Canning Machine
+gregtech.machine.space_canner.uhv.tooltip=Can Actuator §3(Required to use in Space!)
+gregtech.machine.space_canner.uev.name=Space Grade Epic Canning Machine II
+gregtech.machine.space_canner.uev.tooltip=Can Actuator §3(Required to use in Space!)
+gregtech.machine.space_canner.uiv.name=Space Grade Epic Canning Machine III
+gregtech.machine.space_canner.uiv.tooltip=Can Actuator §3(Required to use in Space!)
+gregtech.machine.space_canner.uxv.name=Space Grade Epic Canning Machine IV
+gregtech.machine.space_canner.uxv.tooltip=Can Actuator §3(Required to use in Space!)
+gregtech.machine.space_canner.opv.name=Space Grade Legendary Canning Machine
+gregtech.machine.space_canner.opv.tooltip=Can Actuator §3(Required to use in Space!)
+
+# Centrifuge
+gregtech.machine.space_centrifuge.lv.name=Space Grade Basic Centrifuge
+gregtech.machine.space_centrifuge.lv.tooltip=Separating Molecules §3(Required to use in Space!)
+gregtech.machine.space_centrifuge.mv.name=Space Grade Advanced Centrifuge
+gregtech.machine.space_centrifuge.mv.tooltip=Separating Molecules §3(Required to use in Space!)
+gregtech.machine.space_centrifuge.hv.name=Space Grade Advanced Centrifuge II
+gregtech.machine.space_centrifuge.hv.tooltip=Separating Molecules §3(Required to use in Space!)
+gregtech.machine.space_centrifuge.ev.name=Space Grade Advanced Centrifuge III
+gregtech.machine.space_centrifuge.ev.tooltip=Molecular Separator §3(Required to use in Space!)
+gregtech.machine.space_centrifuge.iv.name=Space Grade Elite Centrifuge
+gregtech.machine.space_centrifuge.iv.tooltip=Molecular Cyclone §3(Required to use in Space!)
+gregtech.machine.space_centrifuge.luv.name=Space Grade Elite Centrifuge II
+gregtech.machine.space_centrifuge.luv.tooltip=Molecular Cyclone §3(Required to use in Space!)
+gregtech.machine.space_centrifuge.zpm.name=Space Grade Elite Centrifuge III
+gregtech.machine.space_centrifuge.zpm.tooltip=Molecular Cyclone §3(Required to use in Space!)
+gregtech.machine.space_centrifuge.uv.name=Space Grade Ultimate Centrifuge
+gregtech.machine.space_centrifuge.uv.tooltip=Molecular Tornado §3(Required to use in Space!)
+gregtech.machine.space_centrifuge.uhv.name=Space Grade Epic Centrifuge
+gregtech.machine.space_centrifuge.uhv.tooltip=Molecular Tornado §3(Required to use in Space!)
+gregtech.machine.space_centrifuge.uev.name=Space Grade Epic Centrifuge II
+gregtech.machine.space_centrifuge.uev.tooltip=Molecular Tornado §3(Required to use in Space!)
+gregtech.machine.space_centrifuge.uiv.name=Space Grade Epic Centrifuge III
+gregtech.machine.space_centrifuge.uiv.tooltip=Molecular Tornado §3(Required to use in Space!)
+gregtech.machine.space_centrifuge.uxv.name=Space Grade Epic Centrifuge IV
+gregtech.machine.space_centrifuge.uxv.tooltip=Molecular Tornado §3(Required to use in Space!)
+gregtech.machine.space_centrifuge.opv.name=Space Grade Legendary Centrifuge
+gregtech.machine.space_centrifuge.opv.tooltip=Molecular Tornado §3(Required to use in Space!)
+
+# Chemical Bath
+gregtech.machine.space_chemical_bath.lv.name=Space Grade Basic Chemical Bath
+gregtech.machine.space_chemical_bath.lv.tooltip=Bathing Ores in Chemicals to separate them §3(Required to use in Space!)
+gregtech.machine.space_chemical_bath.mv.name=Space Grade Advanced Chemical Bath
+gregtech.machine.space_chemical_bath.mv.tooltip=Bathing Ores in Chemicals to separate them §3(Required to use in Space!)
+gregtech.machine.space_chemical_bath.hv.name=Space Grade Advanced Chemical Bath II
+gregtech.machine.space_chemical_bath.hv.tooltip=Bathing Ores in Chemicals to separate them §3(Required to use in Space!)
+gregtech.machine.space_chemical_bath.ev.name=Space Grade Advanced Chemical Bath III
+gregtech.machine.space_chemical_bath.ev.tooltip=Bathing Ores in Chemicals to separate them §3(Required to use in Space!)
+gregtech.machine.space_chemical_bath.iv.name=Space Grade Elite Chemical Bath
+gregtech.machine.space_chemical_bath.iv.tooltip=Chemical Soaker §3(Required to use in Space!)
+gregtech.machine.space_chemical_bath.luv.name=Space Grade Elite Chemical Bath II
+gregtech.machine.space_chemical_bath.luv.tooltip=Chemical Soaker §3(Required to use in Space!)
+gregtech.machine.space_chemical_bath.zpm.name=Space Grade Elite Chemical Bath III
+gregtech.machine.space_chemical_bath.zpm.tooltip=Chemical Soaker §3(Required to use in Space!)
+gregtech.machine.space_chemical_bath.uv.name=Space Grade Ultimate Chemical Bath
+gregtech.machine.space_chemical_bath.uv.tooltip=Chemical Dunktron §3(Required to use in Space!)
+gregtech.machine.space_chemical_bath.uhv.name=Space Grade Epic Chemical Bath
+gregtech.machine.space_chemical_bath.uhv.tooltip=Chemical Dunktron §3(Required to use in Space!)
+gregtech.machine.space_chemical_bath.uev.name=Space Grade Epic Chemical Bath II
+gregtech.machine.space_chemical_bath.uev.tooltip=Chemical Dunktron §3(Required to use in Space!)
+gregtech.machine.space_chemical_bath.uiv.name=Space Grade Epic Chemical Bath III
+gregtech.machine.space_chemical_bath.uiv.tooltip=Chemical Dunktron §3(Required to use in Space!)
+gregtech.machine.space_chemical_bath.uxv.name=Space Grade Epic Chemical Bath IV
+gregtech.machine.space_chemical_bath.uxv.tooltip=Chemical Dunktron §3(Required to use in Space!)
+gregtech.machine.space_chemical_bath.opv.name=Space Grade Legendary Chemical Bath
+gregtech.machine.space_chemical_bath.opv.tooltip=Chemical Dunktron §3(Required to use in Space!)
+
+# Chemical Reactor
+gregtech.machine.space_chemical_reactor.lv.name=Space Grade Basic Chemical Reactor
+gregtech.machine.space_chemical_reactor.lv.tooltip=Letting Chemicals react with each other §3(Required to use in Space!)
+gregtech.machine.space_chemical_reactor.mv.name=Space Grade Advanced Chemical Reactor
+gregtech.machine.space_chemical_reactor.mv.tooltip=Letting Chemicals react with each other §3(Required to use in Space!)
+gregtech.machine.space_chemical_reactor.hv.name=Space Grade Advanced Chemical Reactor II
+gregtech.machine.space_chemical_reactor.hv.tooltip=Letting Chemicals react with each other §3(Required to use in Space!)
+gregtech.machine.space_chemical_reactor.ev.name=Space Grade Advanced Chemical Reactor III
+gregtech.machine.space_chemical_reactor.ev.tooltip=Letting Chemicals react with each other §3(Required to use in Space!)
+gregtech.machine.space_chemical_reactor.iv.name=Space Grade Elite Chemical Reactor
+gregtech.machine.space_chemical_reactor.iv.tooltip=Chemical Performer §3(Required to use in Space!)
+gregtech.machine.space_chemical_reactor.luv.name=Space Grade Elite Chemical Reactor II
+gregtech.machine.space_chemical_reactor.luv.tooltip=Chemical Performer §3(Required to use in Space!)
+gregtech.machine.space_chemical_reactor.zpm.name=Space Grade Elite Chemical Reactor III
+gregtech.machine.space_chemical_reactor.zpm.tooltip=Chemical Performer §3(Required to use in Space!)
+gregtech.machine.space_chemical_reactor.uv.name=Space Grade Ultimate Chemical Reactor
+gregtech.machine.space_chemical_reactor.uv.tooltip=Reaction Catalyzer §3(Required to use in Space!)
+gregtech.machine.space_chemical_reactor.uhv.name=Space Grade Epic Chemical Reactor
+gregtech.machine.space_chemical_reactor.uhv.tooltip=Reaction Catalyzer §3(Required to use in Space!)
+gregtech.machine.space_chemical_reactor.uev.name=Space Grade Epic Chemical Reactor II
+gregtech.machine.space_chemical_reactor.uev.tooltip=Reaction Catalyzer §3(Required to use in Space!)
+gregtech.machine.space_chemical_reactor.uiv.name=Space Grade Epic Chemical Reactor III
+gregtech.machine.space_chemical_reactor.uiv.tooltip=Reaction Catalyzer §3(Required to use in Space!)
+gregtech.machine.space_chemical_reactor.uxv.name=Space Grade Epic Chemical Reactor IV
+gregtech.machine.space_chemical_reactor.uxv.tooltip=Reaction Catalyzer §3(Required to use in Space!)
+gregtech.machine.space_chemical_reactor.opv.name=Space Grade Legendary Chemical Reactor
+gregtech.machine.space_chemical_reactor.opv.tooltip=Reaction Catalyzer §3(Required to use in Space!)
+
+# Compressor
+gregtech.machine.space_compressor.lv.name=Space Grade Basic Compressor
+gregtech.machine.space_compressor.lv.tooltip=Compress-O-Matic C77 §3(Required to use in Space!)
+gregtech.machine.space_compressor.mv.name=Space Grade Advanced Compressor
+gregtech.machine.space_compressor.mv.tooltip=Compress-O-Matic C77 §3(Required to use in Space!)
+gregtech.machine.space_compressor.hv.name=Space Grade Advanced Compressor II
+gregtech.machine.space_compressor.hv.tooltip=Compress-O-Matic C77 §3(Required to use in Space!)
+gregtech.machine.space_compressor.ev.name=Space Grade Advanced Compressor III
+gregtech.machine.space_compressor.ev.tooltip=Compress-O-Matic C77 §3(Required to use in Space!)
+gregtech.machine.space_compressor.iv.name=Space Grade Elite Compressor
+gregtech.machine.space_compressor.iv.tooltip=Singularity Condenser §3(Required to use in Space!)
+gregtech.machine.space_compressor.luv.name=Space Grade Elite Compressor II
+gregtech.machine.space_compressor.luv.tooltip=Singularity Condenser §3(Required to use in Space!)
+gregtech.machine.space_compressor.zpm.name=Space Grade Elite Compressor III
+gregtech.machine.space_compressor.zpm.tooltip=Singularity Condenser §3(Required to use in Space!)
+gregtech.machine.space_compressor.uv.name=Space Grade Ultimate Compressor
+gregtech.machine.space_compressor.uv.tooltip=Matter Constrictor §3(Required to use in Space!)
+gregtech.machine.space_compressor.uhv.name=Space Grade Epic Compressor
+gregtech.machine.space_compressor.uhv.tooltip=Matter Constrictor §3(Required to use in Space!)
+gregtech.machine.space_compressor.uev.name=Space Grade Epic Compressor II
+gregtech.machine.space_compressor.uev.tooltip=Matter Constrictor §3(Required to use in Space!)
+gregtech.machine.space_compressor.uiv.name=Space Grade Epic Compressor III
+gregtech.machine.space_compressor.uiv.tooltip=Matter Constrictor §3(Required to use in Space!)
+gregtech.machine.space_compressor.uxv.name=Space Grade Epic Compressor IV
+gregtech.machine.space_compressor.uxv.tooltip=Matter Constrictor §3(Required to use in Space!)
+gregtech.machine.space_compressor.opv.name=Space Grade Legendary Compressor
+gregtech.machine.space_compressor.opv.tooltip=Matter Constrictor §3(Required to use in Space!)
+
+# Cutting Machine
+gregtech.machine.space_cutter.lv.name=Space Grade Basic Cutting Machine
+gregtech.machine.space_cutter.lv.tooltip=Slice'N Dice §3(Required to use in Space!)
+gregtech.machine.space_cutter.mv.name=Space Grade Advanced Cutting Machine
+gregtech.machine.space_cutter.mv.tooltip=Slice'N Dice §3(Required to use in Space!)
+gregtech.machine.space_cutter.hv.name=Space Grade Advanced Cutting Machine II
+gregtech.machine.space_cutter.hv.tooltip=Slice'N Dice §3(Required to use in Space!)
+gregtech.machine.space_cutter.ev.name=Space Grade Advanced Cutting Machine III
+gregtech.machine.space_cutter.ev.tooltip=Slice'N Dice §3(Required to use in Space!)
+gregtech.machine.space_cutter.iv.name=Space Grade Elite Cutting Machine
+gregtech.machine.space_cutter.iv.tooltip=Matter Cleaver §3(Required to use in Space!)
+gregtech.machine.space_cutter.luv.name=Space Grade Elite Cutting Machine II
+gregtech.machine.space_cutter.luv.tooltip=Matter Cleaver §3(Required to use in Space!)
+gregtech.machine.space_cutter.zpm.name=Space Grade Elite Cutting Machine III
+gregtech.machine.space_cutter.zpm.tooltip=Matter Cleaver §3(Required to use in Space!)
+gregtech.machine.space_cutter.uv.name=Space Grade Ultimate Cutting Machine
+gregtech.machine.space_cutter.uv.tooltip=Object Divider §3(Required to use in Space!)
+gregtech.machine.space_cutter.uhv.name=Space Grade Epic Cutting Machine
+gregtech.machine.space_cutter.uhv.tooltip=Object Divider §3(Required to use in Space!)
+gregtech.machine.space_cutter.uev.name=Space Grade Epic Cutting Machine II
+gregtech.machine.space_cutter.uev.tooltip=Object Divider §3(Required to use in Space!)
+gregtech.machine.space_cutter.uiv.name=Space Grade Epic Cutting Machine III
+gregtech.machine.space_cutter.uiv.tooltip=Object Divider §3(Required to use in Space!)
+gregtech.machine.space_cutter.uxv.name=Space Grade Epic Cutting Machine IV
+gregtech.machine.space_cutter.uxv.tooltip=Object Divider §3(Required to use in Space!)
+gregtech.machine.space_cutter.opv.name=Space Grade Legendary Cutting Machine
+gregtech.machine.space_cutter.opv.tooltip=Object Divider §3(Required to use in Space!)
+
+# Distillery
+gregtech.machine.space_distillery.lv.name=Space Grade Basic Distillery
+gregtech.machine.space_distillery.lv.tooltip=Extracting most relevant Parts of Fluids §3(Required to use in Space!)
+gregtech.machine.space_distillery.mv.name=Space Grade Advanced Distillery
+gregtech.machine.space_distillery.mv.tooltip=Extracting most relevant Parts of Fluids §3(Required to use in Space!)
+gregtech.machine.space_distillery.hv.name=Space Grade Advanced Distillery II
+gregtech.machine.space_distillery.hv.tooltip=Extracting most relevant Parts of Fluids §3(Required to use in Space!)
+gregtech.machine.space_distillery.ev.name=Space Grade Advanced Distillery III
+gregtech.machine.space_distillery.ev.tooltip=Extracting most relevant Parts of Fluids §3(Required to use in Space!)
+gregtech.machine.space_distillery.iv.name=Space Grade Elite Distillery
+gregtech.machine.space_distillery.iv.tooltip=Condensation Separator §3(Required to use in Space!)
+gregtech.machine.space_distillery.luv.name=Space Grade Elite Distillery II
+gregtech.machine.space_distillery.luv.tooltip=Condensation Separator §3(Required to use in Space!)
+gregtech.machine.space_distillery.zpm.name=Space Grade Elite Distillery III
+gregtech.machine.space_distillery.zpm.tooltip=Condensation Separator §3(Required to use in Space!)
+gregtech.machine.space_distillery.uv.name=Space Grade Ultimate Distillery
+gregtech.machine.space_distillery.uv.tooltip=Fraction Splitter §3(Required to use in Space!)
+gregtech.machine.space_distillery.uhv.name=Space Grade Epic Distillery
+gregtech.machine.space_distillery.uhv.tooltip=Fraction Splitter §3(Required to use in Space!)
+gregtech.machine.space_distillery.uev.name=Space Grade Epic Distillery II
+gregtech.machine.space_distillery.uev.tooltip=Fraction Splitter §3(Required to use in Space!)
+gregtech.machine.space_distillery.uiv.name=Space Grade Epic Distillery III
+gregtech.machine.space_distillery.uiv.tooltip=Fraction Splitter §3(Required to use in Space!)
+gregtech.machine.space_distillery.uxv.name=Space Grade Epic Distillery IV
+gregtech.machine.space_distillery.uxv.tooltip=Fraction Splitter §3(Required to use in Space!)
+gregtech.machine.space_distillery.opv.name=Space Grade Legendary Distillery
+gregtech.machine.space_distillery.opv.tooltip=Fraction Splitter §3(Required to use in Space!)
+
+# Electrolyzer
+gregtech.machine.space_electrolyzer.lv.name=Space Grade Basic Electrolyzer
+gregtech.machine.space_electrolyzer.lv.tooltip=Electrolyzing Molecules §3(Required to use in Space!)
+gregtech.machine.space_electrolyzer.mv.name=Space Grade Advanced Electrolyzer
+gregtech.machine.space_electrolyzer.mv.tooltip=Electrolyzing Molecules §3(Required to use in Space!)
+gregtech.machine.space_electrolyzer.hv.name=Space Grade Advanced Electrolyzer II
+gregtech.machine.space_electrolyzer.hv.tooltip=Electrolyzing Molecules §3(Required to use in Space!)
+gregtech.machine.space_electrolyzer.ev.name=Space Grade Advanced Electrolyzer III
+gregtech.machine.space_electrolyzer.ev.tooltip=Electrolyzing Molecules §3(Required to use in Space!)
+gregtech.machine.space_electrolyzer.iv.name=Space Grade Elite Electrolyzer
+gregtech.machine.space_electrolyzer.iv.tooltip=Molecular Disintegrator E-4906 §3(Required to use in Space!)
+gregtech.machine.space_electrolyzer.luv.name=Space Grade Elite Electrolyzer II
+gregtech.machine.space_electrolyzer.luv.tooltip=Molecular Disintegrator E-4907 §3(Required to use in Space!)
+gregtech.machine.space_electrolyzer.zpm.name=Space Grade Elite Electrolyzer III
+gregtech.machine.space_electrolyzer.zpm.tooltip=Molecular Disintegrator E-4908 §3(Required to use in Space!)
+gregtech.machine.space_electrolyzer.uv.name=Space Grade Ultimate Electrolyzer
+gregtech.machine.space_electrolyzer.uv.tooltip=Atomic Ionizer §3(Required to use in Space!)
+gregtech.machine.space_electrolyzer.uhv.name=Space Grade Epic Electrolyzer
+gregtech.machine.space_electrolyzer.uhv.tooltip=Atomic Ionizer §3(Required to use in Space!)
+gregtech.machine.space_electrolyzer.uev.name=Space Grade Epic Electrolyzer II
+gregtech.machine.space_electrolyzer.uev.tooltip=Atomic Ionizer §3(Required to use in Space!)
+gregtech.machine.space_electrolyzer.uiv.name=Space Grade Epic Electrolyzer III
+gregtech.machine.space_electrolyzer.uiv.tooltip=Atomic Ionizer §3(Required to use in Space!)
+gregtech.machine.space_electrolyzer.uxv.name=Space Grade Epic Electrolyzer IV
+gregtech.machine.space_electrolyzer.uxv.tooltip=Atomic Ionizer §3(Required to use in Space!)
+gregtech.machine.space_electrolyzer.opv.name=Space Grade Legendary Electrolyzer
+gregtech.machine.space_electrolyzer.opv.tooltip=Atomic Ionizer §3(Required to use in Space!)
+
+# Electromagnetic Separator
+gregtech.machine.space_electromagnetic_separator.lv.name=Space Grade Basic Electromagnetic Separator
+gregtech.machine.space_electromagnetic_separator.lv.tooltip=Separating the magnetic Ores from the rest §3(Required to use in Space!)
+gregtech.machine.space_electromagnetic_separator.mv.name=Space Grade Advanced Electromagnetic Separator
+gregtech.machine.space_electromagnetic_separator.mv.tooltip=Separating the magnetic Ores from the rest §3(Required to use in Space!)
+gregtech.machine.space_electromagnetic_separator.hv.name=Space Grade Advanced Electromagnetic Separator II
+gregtech.machine.space_electromagnetic_separator.hv.tooltip=Separating the magnetic Ores from the rest §3(Required to use in Space!)
+gregtech.machine.space_electromagnetic_separator.ev.name=Space Grade Advanced Electromagnetic Separator III
+gregtech.machine.space_electromagnetic_separator.ev.tooltip=Separating the magnetic Ores from the rest §3(Required to use in Space!)
+gregtech.machine.space_electromagnetic_separator.iv.name=Space Grade Elite Electromagnetic Separator
+gregtech.machine.space_electromagnetic_separator.iv.tooltip=EM Categorizer §3(Required to use in Space!)
+gregtech.machine.space_electromagnetic_separator.luv.name=Space Grade Elite Electromagnetic Separator II
+gregtech.machine.space_electromagnetic_separator.luv.tooltip=EM Categorizer §3(Required to use in Space!)
+gregtech.machine.space_electromagnetic_separator.zpm.name=Space Grade Elite Electromagnetic Separator III
+gregtech.machine.space_electromagnetic_separator.zpm.tooltip=EM Categorizer §3(Required to use in Space!)
+gregtech.machine.space_electromagnetic_separator.uv.name=Space Grade Ultimate Electromagnetic Separator
+gregtech.machine.space_electromagnetic_separator.uv.tooltip=EMF Dispeller §3(Required to use in Space!)
+gregtech.machine.space_electromagnetic_separator.uhv.name=Space Grade Epic Electromagnetic Separator
+gregtech.machine.space_electromagnetic_separator.uhv.tooltip=EMF Dispeller §3(Required to use in Space!)
+gregtech.machine.space_electromagnetic_separator.uev.name=Space Grade Epic Electromagnetic Separator II
+gregtech.machine.space_electromagnetic_separator.uev.tooltip=EMF Dispeller §3(Required to use in Space!)
+gregtech.machine.space_electromagnetic_separator.uiv.name=Space Grade Epic Electromagnetic Separator III
+gregtech.machine.space_electromagnetic_separator.uiv.tooltip=EMF Dispeller §3(Required to use in Space!)
+gregtech.machine.space_electromagnetic_separator.uxv.name=Space Grade Epic Electromagnetic Separator IV
+gregtech.machine.space_electromagnetic_separator.uxv.tooltip=EMF Dispeller §3(Required to use in Space!)
+gregtech.machine.space_electromagnetic_separator.opv.name=Space Grade Legendary Electromagnetic Separator
+gregtech.machine.space_electromagnetic_separator.opv.tooltip=EMF Dispeller §3(Required to use in Space!)
+
+# Extractor
+gregtech.machine.space_extractor.lv.name=Space Grade Basic Extractor
+gregtech.machine.space_extractor.lv.tooltip=Dejuicer-Device of Doom - D123 §3(Required to use in Space!)
+gregtech.machine.space_extractor.mv.name=Space Grade Advanced Extractor
+gregtech.machine.space_extractor.mv.tooltip=Dejuicer-Device of Doom - D123 §3(Required to use in Space!)
+gregtech.machine.space_extractor.hv.name=Space Grade Advanced Extractor II
+gregtech.machine.space_extractor.hv.tooltip=Dejuicer-Device of Doom - D123 §3(Required to use in Space!)
+gregtech.machine.space_extractor.ev.name=Space Grade Advanced Extractor III
+gregtech.machine.space_extractor.ev.tooltip=Dejuicer-Device of Doom - D123 §3(Required to use in Space!)
+gregtech.machine.space_extractor.iv.name=Space Grade Elite Extractor
+gregtech.machine.space_extractor.iv.tooltip=Vacuum Extractinator §3(Required to use in Space!)
+gregtech.machine.space_extractor.luv.name=Space Grade Elite Extractor II
+gregtech.machine.space_extractor.luv.tooltip=Vacuum Extractinator §3(Required to use in Space!)
+gregtech.machine.space_extractor.zpm.name=Space Grade Elite Extractor III
+gregtech.machine.space_extractor.zpm.tooltip=Vacuum Extractinator §3(Required to use in Space!)
+gregtech.machine.space_extractor.uv.name=Space Grade Ultimate Extractor
+gregtech.machine.space_extractor.uv.tooltip=Liquefying Sucker §3(Required to use in Space!)
+gregtech.machine.space_extractor.uhv.name=Space Grade Epic Extractor
+gregtech.machine.space_extractor.uhv.tooltip=Liquefying Sucker §3(Required to use in Space!)
+gregtech.machine.space_extractor.uev.name=Space Grade Epic Extractor II
+gregtech.machine.space_extractor.uev.tooltip=Liquefying Sucker §3(Required to use in Space!)
+gregtech.machine.space_extractor.uiv.name=Space Grade Epic Extractor III
+gregtech.machine.space_extractor.uiv.tooltip=Liquefying Sucker §3(Required to use in Space!)
+gregtech.machine.space_extractor.uxv.name=Space Grade Epic Extractor IV
+gregtech.machine.space_extractor.uxv.tooltip=Liquefying Sucker §3(Required to use in Space!)
+gregtech.machine.space_extractor.opv.name=Space Grade Legendary Extractor
+gregtech.machine.space_extractor.opv.tooltip=Liquefying Sucker §3(Required to use in Space!)
+
+# Extruder
+gregtech.machine.space_extruder.lv.name=Space Grade Basic Extruder
+gregtech.machine.space_extruder.lv.tooltip=Universal Machine for Metal Working §3(Required to use in Space!)
+gregtech.machine.space_extruder.mv.name=Space Grade Advanced Extruder
+gregtech.machine.space_extruder.mv.tooltip=Universal Machine for Metal Working §3(Required to use in Space!)
+gregtech.machine.space_extruder.hv.name=Space Grade Advanced Extruder II
+gregtech.machine.space_extruder.hv.tooltip=Universal Machine for Metal Working §3(Required to use in Space!)
+gregtech.machine.space_extruder.ev.name=Space Grade Advanced Extruder III
+gregtech.machine.space_extruder.ev.tooltip=Universal Machine for Metal Working §3(Required to use in Space!)
+gregtech.machine.space_extruder.iv.name=Space Grade Elite Extruder
+gregtech.machine.space_extruder.iv.tooltip=Material Displacer §3(Required to use in Space!)
+gregtech.machine.space_extruder.luv.name=Space Grade Elite Extruder II
+gregtech.machine.space_extruder.luv.tooltip=Material Displacer §3(Required to use in Space!)
+gregtech.machine.space_extruder.zpm.name=Space Grade Elite Extruder III
+gregtech.machine.space_extruder.zpm.tooltip=Material Displacer §3(Required to use in Space!)
+gregtech.machine.space_extruder.uv.name=Space Grade Ultimate Extruder
+gregtech.machine.space_extruder.uv.tooltip=Shape Driver §3(Required to use in Space!)
+gregtech.machine.space_extruder.uhv.name=Space Grade Epic Extruder
+gregtech.machine.space_extruder.uhv.tooltip=Shape Driver §3(Required to use in Space!)
+gregtech.machine.space_extruder.uev.name=Space Grade Epic Extruder II
+gregtech.machine.space_extruder.uev.tooltip=Shape Driver §3(Required to use in Space!)
+gregtech.machine.space_extruder.uiv.name=Space Grade Epic Extruder III
+gregtech.machine.space_extruder.uiv.tooltip=Shape Driver §3(Required to use in Space!)
+gregtech.machine.space_extruder.uxv.name=Space Grade Epic Extruder IV
+gregtech.machine.space_extruder.uxv.tooltip=Shape Driver §3(Required to use in Space!)
+gregtech.machine.space_extruder.opv.name=Space Grade Legendary Extruder
+gregtech.machine.space_extruder.opv.tooltip=Shape Driver §3(Required to use in Space!)
+
+gregtech.machine.space_fermenter.lv.name=Space Grade Basic Fermenter
+gregtech.machine.space_fermenter.lv.tooltip=Fermenting Fluids §3(Required to use in Space!)
+gregtech.machine.space_fermenter.mv.name=Space Grade Advanced Fermenter
+gregtech.machine.space_fermenter.mv.tooltip=Fermenting Fluids §3(Required to use in Space!)
+gregtech.machine.space_fermenter.hv.name=Space Grade Advanced Fermenter II
+gregtech.machine.space_fermenter.hv.tooltip=Fermenting Fluids §3(Required to use in Space!)
+gregtech.machine.space_fermenter.ev.name=Space Grade Advanced Fermenter III
+gregtech.machine.space_fermenter.ev.tooltip=Fermenting Fluids §3(Required to use in Space!)
+gregtech.machine.space_fermenter.iv.name=Space Grade Elite Fermenter
+gregtech.machine.space_fermenter.iv.tooltip=Fermentation Hastener §3(Required to use in Space!)
+gregtech.machine.space_fermenter.luv.name=Space Grade Elite Fermenter II
+gregtech.machine.space_fermenter.luv.tooltip=Fermentation Hastener §3(Required to use in Space!)
+gregtech.machine.space_fermenter.zpm.name=Space Grade Elite Fermenter III
+gregtech.machine.space_fermenter.zpm.tooltip=Fermentation Hastener §3(Required to use in Space!)
+gregtech.machine.space_fermenter.uv.name=Space Grade Ultimate Fermenter
+gregtech.machine.space_fermenter.uv.tooltip=Respiration Controller §3(Required to use in Space!)
+gregtech.machine.space_fermenter.uhv.name=Space Grade Epic Fermenter
+gregtech.machine.space_fermenter.uhv.tooltip=Respiration Controller §3(Required to use in Space!)
+gregtech.machine.space_fermenter.uev.name=Space Grade Epic Fermenter II
+gregtech.machine.space_fermenter.uev.tooltip=Respiration Controller §3(Required to use in Space!)
+gregtech.machine.space_fermenter.uiv.name=Space Grade Epic Fermenter III
+gregtech.machine.space_fermenter.uiv.tooltip=Respiration Controller §3(Required to use in Space!)
+gregtech.machine.space_fermenter.uxv.name=Space Grade Epic Fermenter IV
+gregtech.machine.space_fermenter.uxv.tooltip=Respiration Controller §3(Required to use in Space!)
+gregtech.machine.space_fermenter.opv.name=Space Grade Legendary Fermenter
+gregtech.machine.space_fermenter.opv.tooltip=Respiration Controller §3(Required to use in Space!)
+
+# Fluid Heater
+gregtech.machine.space_fluid_heater.lv.name=Space Grade Basic Fluid Heater
+gregtech.machine.space_fluid_heater.lv.tooltip=Heating up your Fluids §3(Required to use in Space!)
+gregtech.machine.space_fluid_heater.mv.name=Space Grade Advanced Fluid Heater
+gregtech.machine.space_fluid_heater.mv.tooltip=Heating up your Fluids §3(Required to use in Space!)
+gregtech.machine.space_fluid_heater.hv.name=Space Grade Advanced Fluid Heater II
+gregtech.machine.space_fluid_heater.hv.tooltip=Heating up your Fluids §3(Required to use in Space!)
+gregtech.machine.space_fluid_heater.ev.name=Space Grade Advanced Fluid Heater III
+gregtech.machine.space_fluid_heater.ev.tooltip=Heating up your Fluids §3(Required to use in Space!)
+gregtech.machine.space_fluid_heater.iv.name=Space Grade Elite Fluid Heater
+gregtech.machine.space_fluid_heater.iv.tooltip=Heat Infuser §3(Required to use in Space!)
+gregtech.machine.space_fluid_heater.luv.name=Space Grade Elite Fluid Heater II
+gregtech.machine.space_fluid_heater.luv.tooltip=Heat Infuser §3(Required to use in Space!)
+gregtech.machine.space_fluid_heater.zpm.name=Space Grade Elite Fluid Heater III
+gregtech.machine.space_fluid_heater.zpm.tooltip=Heat Infuser §3(Required to use in Space!)
+gregtech.machine.space_fluid_heater.uv.name=Space Grade Ultimate Fluid Heater
+gregtech.machine.space_fluid_heater.uv.tooltip=Thermal Imbuer §3(Required to use in Space!)
+gregtech.machine.space_fluid_heater.uhv.name=Space Grade Epic Fluid Heater
+gregtech.machine.space_fluid_heater.uhv.tooltip=Thermal Imbuer §3(Required to use in Space!)
+gregtech.machine.space_fluid_heater.uev.name=Space Grade Epic Fluid Heater II
+gregtech.machine.space_fluid_heater.uev.tooltip=Thermal Imbuer §3(Required to use in Space!)
+gregtech.machine.space_fluid_heater.uiv.name=Space Grade Epic Fluid Heater III
+gregtech.machine.space_fluid_heater.uiv.tooltip=Thermal Imbuer §3(Required to use in Space!)
+gregtech.machine.space_fluid_heater.uxv.name=Space Grade Epic Fluid Heater IV
+gregtech.machine.space_fluid_heater.uxv.tooltip=Thermal Imbuer §3(Required to use in Space!)
+gregtech.machine.space_fluid_heater.opv.name=Space Grade Legendary Fluid Heater
+gregtech.machine.space_fluid_heater.opv.tooltip=Thermal Imbuer §3(Required to use in Space!)
+
+# Fluid Solidifier
+gregtech.machine.space_fluid_solidifier.lv.name=Space Grade Basic Fluid Solidifier
+gregtech.machine.space_fluid_solidifier.lv.tooltip=Cools Fluids down to form Solids §3(Required to use in Space!)
+gregtech.machine.space_fluid_solidifier.mv.name=Space Grade Advanced Fluid Solidifier
+gregtech.machine.space_fluid_solidifier.mv.tooltip=Cools Fluids down to form Solids §3(Required to use in Space!)
+gregtech.machine.space_fluid_solidifier.hv.name=Space Grade Advanced Fluid Solidifier II
+gregtech.machine.space_fluid_solidifier.hv.tooltip=Cools Fluids down to form Solids §3(Required to use in Space!)
+gregtech.machine.space_fluid_solidifier.ev.name=Space Grade Advanced Fluid Solidifier III
+gregtech.machine.space_fluid_solidifier.ev.tooltip=Cools Fluids down to form Solids §3(Required to use in Space!)
+gregtech.machine.space_fluid_solidifier.iv.name=Space Grade Elite Fluid Solidifier
+gregtech.machine.space_fluid_solidifier.iv.tooltip=Not an Ice Machine §3(Required to use in Space!)
+gregtech.machine.space_fluid_solidifier.luv.name=Space Grade Elite Fluid Solidifier II
+gregtech.machine.space_fluid_solidifier.luv.tooltip=Not an Ice Machine §3(Required to use in Space!)
+gregtech.machine.space_fluid_solidifier.zpm.name=Space Grade Elite Fluid Solidifier III
+gregtech.machine.space_fluid_solidifier.zpm.tooltip=Not an Ice Machine §3(Required to use in Space!)
+gregtech.machine.space_fluid_solidifier.uv.name=Space Grade Ultimate Fluid Solidifier
+gregtech.machine.space_fluid_solidifier.uv.tooltip=Fluid Petrificator §3(Required to use in Space!)
+gregtech.machine.space_fluid_solidifier.uhv.name=Space Grade Epic Fluid Solidifier
+gregtech.machine.space_fluid_solidifier.uhv.tooltip=Fluid Petrificator §3(Required to use in Space!)
+gregtech.machine.space_fluid_solidifier.uev.name=Space Grade Epic Fluid Solidifier II
+gregtech.machine.space_fluid_solidifier.uev.tooltip=Fluid Petrificator §3(Required to use in Space!)
+gregtech.machine.space_fluid_solidifier.uiv.name=Space Grade Epic Fluid Solidifier III
+gregtech.machine.space_fluid_solidifier.uiv.tooltip=Fluid Petrificator §3(Required to use in Space!)
+gregtech.machine.space_fluid_solidifier.uxv.name=Space Grade Epic Fluid Solidifier IV
+gregtech.machine.space_fluid_solidifier.uxv.tooltip=Fluid Petrificator §3(Required to use in Space!)
+gregtech.machine.space_fluid_solidifier.opv.name=Space Grade Legendary Fluid Solidifier
+gregtech.machine.space_fluid_solidifier.opv.tooltip=Fluid Petrificator §3(Required to use in Space!)
+
+# Forge Hammer
+gregtech.machine.space_forge_hammer.lv.name=Space Grade Basic Forge Hammer
+gregtech.machine.space_forge_hammer.lv.tooltip=Stop, Hammertime! §3(Required to use in Space!)
+gregtech.machine.space_forge_hammer.mv.name=Space Grade Advanced Forge Hammer
+gregtech.machine.space_forge_hammer.mv.tooltip=Stop, Hammertime! §3(Required to use in Space!)
+gregtech.machine.space_forge_hammer.hv.name=Space Grade Advanced Forge Hammer II
+gregtech.machine.space_forge_hammer.hv.tooltip=Stop, Hammertime! §3(Required to use in Space!)
+gregtech.machine.space_forge_hammer.ev.name=Space Grade Advanced Forge Hammer III
+gregtech.machine.space_forge_hammer.ev.tooltip=Stop, Hammertime! §3(Required to use in Space!)
+gregtech.machine.space_forge_hammer.iv.name=Space Grade Elite Forge Hammer
+gregtech.machine.space_forge_hammer.iv.tooltip=Plate Forger §3(Required to use in Space!)
+gregtech.machine.space_forge_hammer.luv.name=Space Grade Elite Forge Hammer II
+gregtech.machine.space_forge_hammer.luv.tooltip=Plate Forger §3(Required to use in Space!)
+gregtech.machine.space_forge_hammer.zpm.name=Space Grade Elite Forge Hammer III
+gregtech.machine.space_forge_hammer.zpm.tooltip=Plate Forger §3(Required to use in Space!)
+gregtech.machine.space_forge_hammer.uv.name=Space Grade Ultimate Forge Hammer
+gregtech.machine.space_forge_hammer.uv.tooltip=Impact Modulator §3(Required to use in Space!)
+gregtech.machine.space_forge_hammer.uhv.name=Space Grade Epic Forge Hammer
+gregtech.machine.space_forge_hammer.uhv.tooltip=Impact Modulator §3(Required to use in Space!)
+gregtech.machine.space_forge_hammer.uev.name=Space Grade Epic Forge Hammer II
+gregtech.machine.space_forge_hammer.uev.tooltip=Impact Modulator §3(Required to use in Space!)
+gregtech.machine.space_forge_hammer.uiv.name=Space Grade Epic Forge Hammer III
+gregtech.machine.space_forge_hammer.uiv.tooltip=Impact Modulator §3(Required to use in Space!)
+gregtech.machine.space_forge_hammer.uxv.name=Space Grade Epic Forge Hammer IV
+gregtech.machine.space_forge_hammer.uxv.tooltip=Impact Modulator §3(Required to use in Space!)
+gregtech.machine.space_forge_hammer.opv.name=Space Grade Legendary Forge Hammer
+gregtech.machine.space_forge_hammer.opv.tooltip=Impact Modulator §3(Required to use in Space!)
+
+# Forming Press
+gregtech.machine.space_forming_press.lv.name=Space Grade Basic Forming Press
+gregtech.machine.space_forming_press.lv.tooltip=Imprinting Images into things §3(Required to use in Space!)
+gregtech.machine.space_forming_press.mv.name=Space Grade Advanced Forming Press
+gregtech.machine.space_forming_press.mv.tooltip=Imprinting Images into things §3(Required to use in Space!)
+gregtech.machine.space_forming_press.hv.name=Space Grade Advanced Forming Press II
+gregtech.machine.space_forming_press.hv.tooltip=Imprinting Images into things §3(Required to use in Space!)
+gregtech.machine.space_forming_press.ev.name=Space Grade Advanced Forming Press III
+gregtech.machine.space_forming_press.ev.tooltip=Imprinting Images into things §3(Required to use in Space!)
+gregtech.machine.space_forming_press.iv.name=Space Grade Elite Forming Press
+gregtech.machine.space_forming_press.iv.tooltip=Object Layerer §3(Required to use in Space!)
+gregtech.machine.space_forming_press.luv.name=Space Grade Elite Forming Press II
+gregtech.machine.space_forming_press.luv.tooltip=Object Layerer §3(Required to use in Space!)
+gregtech.machine.space_forming_press.zpm.name=Space Grade Elite Forming Press III
+gregtech.machine.space_forming_press.zpm.tooltip=Object Layerer §3(Required to use in Space!)
+gregtech.machine.space_forming_press.uv.name=Space Grade Ultimate Forming Press
+gregtech.machine.space_forming_press.uv.tooltip=Surface Shifter §3(Required to use in Space!)
+gregtech.machine.space_forming_press.uhv.name=Space Grade Epic Forming Press
+gregtech.machine.space_forming_press.uhv.tooltip=Surface Shifter §3(Required to use in Space!)
+gregtech.machine.space_forming_press.uev.name=Space Grade Epic Forming Press II
+gregtech.machine.space_forming_press.uev.tooltip=Surface Shifter §3(Required to use in Space!)
+gregtech.machine.space_forming_press.uiv.name=Space Grade Epic Forming Press III
+gregtech.machine.space_forming_press.uiv.tooltip=Surface Shifter §3(Required to use in Space!)
+gregtech.machine.space_forming_press.uxv.name=Space Grade Epic Forming Press IV
+gregtech.machine.space_forming_press.uxv.tooltip=Surface Shifter §3(Required to use in Space!)
+gregtech.machine.space_forming_press.opv.name=Space Grade Legendary Forming Press
+gregtech.machine.space_forming_press.opv.tooltip=Surface Shifter §3(Required to use in Space!)
+
+# Lathe
+gregtech.machine.space_lathe.lv.name=Space Grade Basic Lathe
+gregtech.machine.space_lathe.lv.tooltip=Produces Rods more efficiently §3(Required to use in Space!)
+gregtech.machine.space_lathe.mv.name=Space Grade Advanced Lathe
+gregtech.machine.space_lathe.mv.tooltip=Produces Rods more efficiently §3(Required to use in Space!)
+gregtech.machine.space_lathe.hv.name=Space Grade Advanced Lathe II
+gregtech.machine.space_lathe.hv.tooltip=Produces Rods more efficiently §3(Required to use in Space!)
+gregtech.machine.space_lathe.ev.name=Space Grade Advanced Lathe III
+gregtech.machine.space_lathe.ev.tooltip=Produces Rods more efficiently §3(Required to use in Space!)
+gregtech.machine.space_lathe.iv.name=Space Grade Elite Lathe
+gregtech.machine.space_lathe.iv.tooltip=Turn-O-Matic L-5906 §3(Required to use in Space!)
+gregtech.machine.space_lathe.luv.name=Space Grade Elite Lathe II
+gregtech.machine.space_lathe.luv.tooltip=Turn-O-Matic L-5907 §3(Required to use in Space!)
+gregtech.machine.space_lathe.zpm.name=Space Grade Elite Lathe III
+gregtech.machine.space_lathe.zpm.tooltip=Turn-O-Matic L-5908 §3(Required to use in Space!)
+gregtech.machine.space_lathe.uv.name=Space Grade Ultimate Lathe
+gregtech.machine.space_lathe.uv.tooltip=Rotation Grinder §3(Required to use in Space!)
+gregtech.machine.space_lathe.uhv.name=Space Grade Epic Lathe
+gregtech.machine.space_lathe.uhv.tooltip=Rotation Grinder §3(Required to use in Space!)
+gregtech.machine.space_lathe.uev.name=Space Grade Epic Lathe II
+gregtech.machine.space_lathe.uev.tooltip=Rotation Grinder §3(Required to use in Space!)
+gregtech.machine.space_lathe.uiv.name=Space Grade Epic Lathe III
+gregtech.machine.space_lathe.uiv.tooltip=Rotation Grinder §3(Required to use in Space!)
+gregtech.machine.space_lathe.uxv.name=Space Grade Epic Lathe IV
+gregtech.machine.space_lathe.uxv.tooltip=Rotation Grinder §3(Required to use in Space!)
+gregtech.machine.space_lathe.opv.name=Space Grade Legendary Lathe
+gregtech.machine.space_lathe.opv.tooltip=Rotation Grinder §3(Required to use in Space!)
+
+# Mixer
+gregtech.machine.space_mixer.lv.name=Space Grade Basic Mixer
+gregtech.machine.space_mixer.lv.tooltip=Will it Blend? §3(Required to use in Space!)
+gregtech.machine.space_mixer.mv.name=Space Grade Advanced Mixer
+gregtech.machine.space_mixer.mv.tooltip=Will it Blend? §3(Required to use in Space!)
+gregtech.machine.space_mixer.hv.name=Space Grade Advanced Mixer II
+gregtech.machine.space_mixer.hv.tooltip=Will it Blend? §3(Required to use in Space!)
+gregtech.machine.space_mixer.ev.name=Space Grade Advanced Mixer III
+gregtech.machine.space_mixer.ev.tooltip=Will it Blend? §3(Required to use in Space!)
+gregtech.machine.space_mixer.iv.name=Space Grade Elite Mixer
+gregtech.machine.space_mixer.iv.tooltip=Matter Organizer §3(Required to use in Space!)
+gregtech.machine.space_mixer.luv.name=Space Grade Elite Mixer II
+gregtech.machine.space_mixer.luv.tooltip=Matter Organizer §3(Required to use in Space!)
+gregtech.machine.space_mixer.zpm.name=Space Grade Elite Mixer III
+gregtech.machine.space_mixer.zpm.tooltip=Matter Organizer §3(Required to use in Space!)
+gregtech.machine.space_mixer.uv.name=Space Grade Ultimate Mixer
+gregtech.machine.space_mixer.uv.tooltip=Material Homogenizer §3(Required to use in Space!)
+gregtech.machine.space_mixer.uhv.name=Space Grade Epic Mixer
+gregtech.machine.space_mixer.uhv.tooltip=Material Homogenizer §3(Required to use in Space!)
+gregtech.machine.space_mixer.uev.name=Space Grade Epic Mixer II
+gregtech.machine.space_mixer.uev.tooltip=Material Homogenizer §3(Required to use in Space!)
+gregtech.machine.space_mixer.uiv.name=Space Grade Epic Mixer III
+gregtech.machine.space_mixer.uiv.tooltip=Material Homogenizer §3(Required to use in Space!)
+gregtech.machine.space_mixer.uxv.name=Space Grade Epic Mixer IV
+gregtech.machine.space_mixer.uxv.tooltip=Material Homogenizer §3(Required to use in Space!)
+gregtech.machine.space_mixer.opv.name=Space Grade Legendary Mixer
+gregtech.machine.space_mixer.opv.tooltip=Material Homogenizer §3(Required to use in Space!)
+
+# Ore Washing Plant
+gregtech.machine.space_ore_washer.lv.name=Space Grade Basic Ore Washing Plant
+gregtech.machine.space_ore_washer.lv.tooltip=Getting more Byproducts from your Ores §3(Required to use in Space!)
+gregtech.machine.space_ore_washer.mv.name=Space Grade Advanced Ore Washing Plant
+gregtech.machine.space_ore_washer.mv.tooltip=Getting more Byproducts from your Ores §3(Required to use in Space!)
+gregtech.machine.space_ore_washer.hv.name=Space Grade Advanced Ore Washing Plant II
+gregtech.machine.space_ore_washer.hv.tooltip=Getting more Byproducts from your Ores §3(Required to use in Space!)
+gregtech.machine.space_ore_washer.ev.name=Space Grade Advanced Ore Washing Plant III
+gregtech.machine.space_ore_washer.ev.tooltip=Getting more Byproducts from your Ores §3(Required to use in Space!)
+gregtech.machine.space_ore_washer.iv.name=Space Grade Elite Ore Washing Plant
+gregtech.machine.space_ore_washer.iv.tooltip=Repurposed Laundry-Washer I-360 §3(Required to use in Space!)
+gregtech.machine.space_ore_washer.luv.name=Space Grade Elite Ore Washing Plant II
+gregtech.machine.space_ore_washer.luv.tooltip=Repurposed Laundry-Washer I-361 §3(Required to use in Space!)
+gregtech.machine.space_ore_washer.zpm.name=Space Grade Elite Ore Washing Plant III
+gregtech.machine.space_ore_washer.zpm.tooltip=Repurposed Laundry-Washer I-362 §3(Required to use in Space!)
+gregtech.machine.space_ore_washer.uv.name=Space Grade Ultimate Ore Washing Plant
+gregtech.machine.space_ore_washer.uv.tooltip=Miniature Car Wash §3(Required to use in Space!)
+gregtech.machine.space_ore_washer.uhv.name=Space Grade Epic Ore Washing Plant
+gregtech.machine.space_ore_washer.uhv.tooltip=Miniature Car Wash §3(Required to use in Space!)
+gregtech.machine.space_ore_washer.uev.name=Space Grade Epic Ore Washing Plant II
+gregtech.machine.space_ore_washer.uev.tooltip=Miniature Car Wash §3(Required to use in Space!)
+gregtech.machine.space_ore_washer.uiv.name=Space Grade Epic Ore Washing Plant III
+gregtech.machine.space_ore_washer.uiv.tooltip=Miniature Car Wash §3(Required to use in Space!)
+gregtech.machine.space_ore_washer.uxv.name=Space Grade Epic Ore Washing Plant IV
+gregtech.machine.space_ore_washer.uxv.tooltip=Miniature Car Wash §3(Required to use in Space!)
+gregtech.machine.space_ore_washer.opv.name=Space Grade Legendary Ore Washing Plant
+gregtech.machine.space_ore_washer.opv.tooltip=Miniature Car Wash §3(Required to use in Space!)
+
+# Packager
+gregtech.machine.space_packer.lv.name=Space Grade Basic Packager
+gregtech.machine.space_packer.lv.tooltip=Puts things into and Grabs things out of Boxes §3(Required to use in Space!)
+gregtech.machine.space_packer.mv.name=Space Grade Advanced Packager
+gregtech.machine.space_packer.mv.tooltip=Puts things into and Grabs things out of Boxes §3(Required to use in Space!)
+gregtech.machine.space_packer.hv.name=Space Grade Advanced Packager II
+gregtech.machine.space_packer.hv.tooltip=Puts things into and Grabs things out of Boxes §3(Required to use in Space!)
+gregtech.machine.space_packer.ev.name=Space Grade Advanced Packager III
+gregtech.machine.space_packer.ev.tooltip=Puts things into and Grabs things out of Boxes §3(Required to use in Space!)
+gregtech.machine.space_packer.iv.name=Space Grade Elite Packager
+gregtech.machine.space_packer.iv.tooltip=Boxinator §3(Required to use in Space!)
+gregtech.machine.space_packer.luv.name=Space Grade Elite Packager II
+gregtech.machine.space_packer.luv.tooltip=Boxinator §3(Required to use in Space!)
+gregtech.machine.space_packer.zpm.name=Space Grade Elite Packager III
+gregtech.machine.space_packer.zpm.tooltip=Boxinator §3(Required to use in Space!)
+gregtech.machine.space_packer.uv.name=Space Grade Ultimate Packager
+gregtech.machine.space_packer.uv.tooltip=Amazon Warehouse §3(Required to use in Space!)
+gregtech.machine.space_packer.uhv.name=Space Grade Epic Packager
+gregtech.machine.space_packer.uhv.tooltip=Amazon Warehouse §3(Required to use in Space!)
+gregtech.machine.space_packer.uev.name=Space Grade Epic Packager II
+gregtech.machine.space_packer.uev.tooltip=Amazon Warehouse §3(Required to use in Space!)
+gregtech.machine.space_packer.uiv.name=Space Grade Epic Packager III
+gregtech.machine.space_packer.uiv.tooltip=Amazon Warehouse §3(Required to use in Space!)
+gregtech.machine.space_packer.uxv.name=Space Grade Epic Packager IV
+gregtech.machine.space_packer.uxv.tooltip=Amazon Warehouse §3(Required to use in Space!)
+gregtech.machine.space_packer.opv.name=Space Grade Legendary Packager
+gregtech.machine.space_packer.opv.tooltip=Amazon Warehouse §3(Required to use in Space!)
+
+# Polarizer
+gregtech.machine.space_polarizer.lv.name=Space Grade Basic Polarizer
+gregtech.machine.space_polarizer.lv.tooltip=Bipolarising your Magnets §3(Required to use in Space!)
+gregtech.machine.space_polarizer.mv.name=Space Grade Advanced Polarizer
+gregtech.machine.space_polarizer.mv.tooltip=Bipolarising your Magnets §3(Required to use in Space!)
+gregtech.machine.space_polarizer.hv.name=Space Grade Advanced Polarizer II
+gregtech.machine.space_polarizer.hv.tooltip=Bipolarising your Magnets §3(Required to use in Space!)
+gregtech.machine.space_polarizer.ev.name=Space Grade Advanced Polarizer III
+gregtech.machine.space_polarizer.ev.tooltip=Bipolarising your Magnets §3(Required to use in Space!)
+gregtech.machine.space_polarizer.iv.name=Space Grade Elite Polarizer
+gregtech.machine.space_polarizer.iv.tooltip=Magnetism Inducer §3(Required to use in Space!)
+gregtech.machine.space_polarizer.luv.name=Space Grade Elite Polarizer II
+gregtech.machine.space_polarizer.luv.tooltip=Magnetism Inducer §3(Required to use in Space!)
+gregtech.machine.space_polarizer.zpm.name=Space Grade Elite Polarizer III
+gregtech.machine.space_polarizer.zpm.tooltip=Magnetism Inducer §3(Required to use in Space!)
+gregtech.machine.space_polarizer.uv.name=Space Grade Ultimate Polarizer
+gregtech.machine.space_polarizer.uv.tooltip=Magnetic Field Rearranger §3(Required to use in Space!)
+gregtech.machine.space_polarizer.uhv.name=Space Grade Epic Polarizer
+gregtech.machine.space_polarizer.uhv.tooltip=Magnetic Field Rearranger §3(Required to use in Space!)
+gregtech.machine.space_polarizer.uev.name=Space Grade Epic Polarizer II
+gregtech.machine.space_polarizer.uev.tooltip=Magnetic Field Rearranger §3(Required to use in Space!)
+gregtech.machine.space_polarizer.uiv.name=Space Grade Epic Polarizer III
+gregtech.machine.space_polarizer.uiv.tooltip=Magnetic Field Rearranger §3(Required to use in Space!)
+gregtech.machine.space_polarizer.uxv.name=Space Grade Epic Polarizer IV
+gregtech.machine.space_polarizer.uxv.tooltip=Magnetic Field Rearranger §3(Required to use in Space!)
+gregtech.machine.space_polarizer.opv.name=Space Grade Legendary Polarizer
+gregtech.machine.space_polarizer.opv.tooltip=Magnetic Field Rearranger §3(Required to use in Space!)
+
+# Laser Engraver
+gregtech.machine.space_laser_engraver.lv.name=Space Grade Basic Precision Laser Engraver
+gregtech.machine.space_laser_engraver.lv.tooltip=Don't look directly at the Laser §3(Required to use in Space!)
+gregtech.machine.space_laser_engraver.mv.name=Space Grade Advanced Precision Laser Engraver
+gregtech.machine.space_laser_engraver.mv.tooltip=Don't look directly at the Laser §3(Required to use in Space!)
+gregtech.machine.space_laser_engraver.hv.name=Space Grade Advanced Precision Laser Engraver II
+gregtech.machine.space_laser_engraver.hv.tooltip=Don't look directly at the Laser §3(Required to use in Space!)
+gregtech.machine.space_laser_engraver.ev.name=Space Grade Advanced Precision Laser Engraver III
+gregtech.machine.space_laser_engraver.ev.tooltip=Don't look directly at the Laser §3(Required to use in Space!)
+gregtech.machine.space_laser_engraver.iv.name=Space Grade Elite Precision Laser Engraver
+gregtech.machine.space_laser_engraver.iv.tooltip=With the Power of 2.04 MW §3(Required to use in Space!)
+gregtech.machine.space_laser_engraver.luv.name=Space Grade Elite Precision Laser Engraver II
+gregtech.machine.space_laser_engraver.luv.tooltip=With the Power of 8.16 MW §3(Required to use in Space!)
+gregtech.machine.space_laser_engraver.zpm.name=Space Grade Elite Precision Laser Engraver III
+gregtech.machine.space_laser_engraver.zpm.tooltip=With the Power of 32.64 MW §3(Required to use in Space!)
+gregtech.machine.space_laser_engraver.uv.name=Space Grade Ultimate Precision Laser Engraver
+gregtech.machine.space_laser_engraver.uv.tooltip=Exact Photon Cannon §3(Required to use in Space!)
+gregtech.machine.space_laser_engraver.uhv.name=Space Grade Epic Precision Laser Engraver
+gregtech.machine.space_laser_engraver.uhv.tooltip=Exact Photon Cannon §3(Required to use in Space!)
+gregtech.machine.space_laser_engraver.uev.name=Space Grade Epic Precision Laser Engraver II
+gregtech.machine.space_laser_engraver.uev.tooltip=Exact Photon Cannon §3(Required to use in Space!)
+gregtech.machine.space_laser_engraver.uiv.name=Space Grade Epic Precision Laser Engraver III
+gregtech.machine.space_laser_engraver.uiv.tooltip=Exact Photon Cannon §3(Required to use in Space!)
+gregtech.machine.space_laser_engraver.uxv.name=Space Grade Epic Precision Laser Engraver IV
+gregtech.machine.space_laser_engraver.uxv.tooltip=Exact Photon Cannon §3(Required to use in Space!)
+gregtech.machine.space_laser_engraver.opv.name=Space Grade Legendary Precision Laser Engraver
+gregtech.machine.space_laser_engraver.opv.tooltip=Exact Photon Cannon §3(Required to use in Space!)
+
+# Sifting Machine
+gregtech.machine.space_sifter.lv.name=Space Grade Basic Sifting Machine
+gregtech.machine.space_sifter.lv.tooltip=Stay calm and keep sifting §3(Required to use in Space!)
+gregtech.machine.space_sifter.mv.name=Space Grade Advanced Sifting Machine
+gregtech.machine.space_sifter.mv.tooltip=Stay calm and keep sifting §3(Required to use in Space!)
+gregtech.machine.space_sifter.hv.name=Space Grade Advanced Sifting Machine II
+gregtech.machine.space_sifter.hv.tooltip=Stay calm and keep sifting §3(Required to use in Space!)
+gregtech.machine.space_sifter.ev.name=Space Grade Advanced Sifting Machine III
+gregtech.machine.space_sifter.ev.tooltip=Stay calm and keep sifting §3(Required to use in Space!)
+gregtech.machine.space_sifter.iv.name=Space Grade Elite Sifting Machine
+gregtech.machine.space_sifter.iv.tooltip=Sponsored by TFC §3(Required to use in Space!)
+gregtech.machine.space_sifter.luv.name=Space Grade Elite Sifting Machine II
+gregtech.machine.space_sifter.luv.tooltip=Sponsored by TFC §3(Required to use in Space!)
+gregtech.machine.space_sifter.zpm.name=Space Grade Elite Sifting Machine III
+gregtech.machine.space_sifter.zpm.tooltip=Sponsored by TFC §3(Required to use in Space!)
+gregtech.machine.space_sifter.uv.name=Space Grade Ultimate Sifting Machine
+gregtech.machine.space_sifter.uv.tooltip=Pulsation Filter §3(Required to use in Space!)
+gregtech.machine.space_sifter.uhv.name=Space Grade Epic Sifting Machine
+gregtech.machine.space_sifter.uhv.tooltip=Pulsation Filter §3(Required to use in Space!)
+gregtech.machine.space_sifter.uev.name=Space Grade Epic Sifting Machine II
+gregtech.machine.space_sifter.uev.tooltip=Pulsation Filter §3(Required to use in Space!)
+gregtech.machine.space_sifter.uiv.name=Space Grade Epic Sifting Machine III
+gregtech.machine.space_sifter.uiv.tooltip=Pulsation Filter §3(Required to use in Space!)
+gregtech.machine.space_sifter.uxv.name=Space Grade Epic Sifting Machine IV
+gregtech.machine.space_sifter.uxv.tooltip=Pulsation Filter §3(Required to use in Space!)
+gregtech.machine.space_sifter.opv.name=Space Grade Legendary Sifting Machine
+gregtech.machine.space_sifter.opv.tooltip=Pulsation Filter §3(Required to use in Space!)
+
+# Thermal Centrifuge
+gregtech.machine.space_thermal_centrifuge.lv.name=Space Grade Basic Thermal Centrifuge
+gregtech.machine.space_thermal_centrifuge.lv.tooltip=Separating Ores more precisely §3(Required to use in Space!)
+gregtech.machine.space_thermal_centrifuge.mv.name=Space Grade Advanced Thermal Centrifuge
+gregtech.machine.space_thermal_centrifuge.mv.tooltip=Separating Ores more precisely §3(Required to use in Space!)
+gregtech.machine.space_thermal_centrifuge.hv.name=Space Grade Advanced Thermal Centrifuge II
+gregtech.machine.space_thermal_centrifuge.hv.tooltip=Separating Ores more precisely §3(Required to use in Space!)
+gregtech.machine.space_thermal_centrifuge.ev.name=Space Grade Advanced Thermal Centrifuge III
+gregtech.machine.space_thermal_centrifuge.ev.tooltip=Separating Ores more precisely §3(Required to use in Space!)
+gregtech.machine.space_thermal_centrifuge.iv.name=Space Grade Elite Thermal Centrifuge
+gregtech.machine.space_thermal_centrifuge.iv.tooltip=Blaze Sweatshop T-6350 §3(Required to use in Space!)
+gregtech.machine.space_thermal_centrifuge.luv.name=Space Grade Elite Thermal Centrifuge II
+gregtech.machine.space_thermal_centrifuge.luv.tooltip=Blaze Sweatshop T-6351 §3(Required to use in Space!)
+gregtech.machine.space_thermal_centrifuge.zpm.name=Space Grade Elite Thermal Centrifuge III
+gregtech.machine.space_thermal_centrifuge.zpm.tooltip=Blaze Sweatshop T-6352 §3(Required to use in Space!)
+gregtech.machine.space_thermal_centrifuge.uv.name=Space Grade Ultimate Thermal Centrifuge
+gregtech.machine.space_thermal_centrifuge.uv.tooltip=Fire Cyclone §3(Required to use in Space!)
+gregtech.machine.space_thermal_centrifuge.uhv.name=Space Grade Epic Thermal Centrifuge
+gregtech.machine.space_thermal_centrifuge.uhv.tooltip=Fire Cyclone §3(Required to use in Space!)
+gregtech.machine.space_thermal_centrifuge.uev.name=Space Grade Epic Thermal Centrifuge II
+gregtech.machine.space_thermal_centrifuge.uev.tooltip=Fire Cyclone §3(Required to use in Space!)
+gregtech.machine.space_thermal_centrifuge.uiv.name=Space Grade Epic Thermal Centrifuge III
+gregtech.machine.space_thermal_centrifuge.uiv.tooltip=Fire Cyclone §3(Required to use in Space!)
+gregtech.machine.space_thermal_centrifuge.uxv.name=Space Grade Epic Thermal Centrifuge IV
+gregtech.machine.space_thermal_centrifuge.uxv.tooltip=Fire Cyclone §3(Required to use in Space!)
+gregtech.machine.space_thermal_centrifuge.opv.name=Space Grade Legendary Thermal Centrifuge
+gregtech.machine.space_thermal_centrifuge.opv.tooltip=Fire Cyclone §3(Required to use in Space!)
+
+# Wiremill
+gregtech.machine.space_wiremill.lv.name=Space Grade Basic Wiremill
+gregtech.machine.space_wiremill.lv.tooltip=Produces Wires more efficiently §3(Required to use in Space!)
+gregtech.machine.space_wiremill.mv.name=Space Grade Advanced Wiremill
+gregtech.machine.space_wiremill.mv.tooltip=Produces Wires more efficiently §3(Required to use in Space!)
+gregtech.machine.space_wiremill.hv.name=Space Grade Advanced Wiremill II
+gregtech.machine.space_wiremill.hv.tooltip=Produces Wires more efficiently §3(Required to use in Space!)
+gregtech.machine.space_wiremill.ev.name=Space Grade Advanced Wiremill III
+gregtech.machine.space_wiremill.ev.tooltip=Produces Wires more efficiently §3(Required to use in Space!)
+gregtech.machine.space_wiremill.iv.name=Space Grade Elite Wiremill
+gregtech.machine.space_wiremill.iv.tooltip=Ingot Elongator §3(Required to use in Space!)
+gregtech.machine.space_wiremill.luv.name=Space Grade Elite Wiremill II
+gregtech.machine.space_wiremill.luv.tooltip=Ingot Elongator §3(Required to use in Space!)
+gregtech.machine.space_wiremill.zpm.name=Space Grade Elite Wiremill III
+gregtech.machine.space_wiremill.zpm.tooltip=Ingot Elongator §3(Required to use in Space!)
+gregtech.machine.space_wiremill.uv.name=Space Grade Ultimate Wiremill
+gregtech.machine.space_wiremill.uv.tooltip=Wire Transfigurator §3(Required to use in Space!)
+gregtech.machine.space_wiremill.uhv.name=Space Grade Epic Wiremill
+gregtech.machine.space_wiremill.uhv.tooltip=Wire Transfigurator §3(Required to use in Space!)
+gregtech.machine.space_wiremill.uev.name=Space Grade Epic Wiremill II
+gregtech.machine.space_wiremill.uev.tooltip=Wire Transfigurator §3(Required to use in Space!)
+gregtech.machine.space_wiremill.uiv.name=Space Grade Epic Wiremill III
+gregtech.machine.space_wiremill.uiv.tooltip=Wire Transfigurator §3(Required to use in Space!)
+gregtech.machine.space_wiremill.uxv.name=Space Grade Epic Wiremill IV
+gregtech.machine.space_wiremill.uxv.tooltip=Wire Transfigurator §3(Required to use in Space!)
+gregtech.machine.space_wiremill.opv.name=Space Grade Legendary Wiremill
+gregtech.machine.space_wiremill.opv.tooltip=Wire Transfigurator §3(Required to use in Space!)
+
+# Circuit Assembler
+gregtech.machine.space_circuit_assembler.lv.name=Space Grade Basic Circuit Assembler
+gregtech.machine.space_circuit_assembler.lv.tooltip=Pick-n-Place all over the place §3(Required to use in Space!)
+gregtech.machine.space_circuit_assembler.mv.name=Space Grade Advanced Circuit Assembler
+gregtech.machine.space_circuit_assembler.mv.tooltip=Pick-n-Place all over the place §3(Required to use in Space!)
+gregtech.machine.space_circuit_assembler.hv.name=Space Grade Advanced Circuit Assembler II
+gregtech.machine.space_circuit_assembler.hv.tooltip=Pick-n-Place all over the place §3(Required to use in Space!)
+gregtech.machine.space_circuit_assembler.ev.name=Space Grade Advanced Circuit Assembler III
+gregtech.machine.space_circuit_assembler.ev.tooltip=Pick-n-Place all over the place §3(Required to use in Space!)
+gregtech.machine.space_circuit_assembler.iv.name=Space Grade Elite Circuit Assembler
+gregtech.machine.space_circuit_assembler.iv.tooltip=Electronics Manufacturer §3(Required to use in Space!)
+gregtech.machine.space_circuit_assembler.luv.name=Space Grade Elite Circuit Assembler II
+gregtech.machine.space_circuit_assembler.luv.tooltip=Electronics Manufacturer §3(Required to use in Space!)
+gregtech.machine.space_circuit_assembler.zpm.name=Space Grade Elite Circuit Assembler III
+gregtech.machine.space_circuit_assembler.zpm.tooltip=Electronics Manufacturer §3(Required to use in Space!)
+gregtech.machine.space_circuit_assembler.uv.name=Space Grade Ultimate Circuit Assembler
+gregtech.machine.space_circuit_assembler.uv.tooltip=Computation Factory §3(Required to use in Space!)
+gregtech.machine.space_circuit_assembler.uhv.name=Space Grade Epic Circuit Assembler
+gregtech.machine.space_circuit_assembler.uhv.tooltip=Computation Factory §3(Required to use in Space!)
+gregtech.machine.space_circuit_assembler.uev.name=Space Grade Epic Circuit Assembler II
+gregtech.machine.space_circuit_assembler.uev.tooltip=Computation Factory §3(Required to use in Space!)
+gregtech.machine.space_circuit_assembler.uiv.name=Space Grade Epic Circuit Assembler III
+gregtech.machine.space_circuit_assembler.uiv.tooltip=Computation Factory §3(Required to use in Space!)
+gregtech.machine.space_circuit_assembler.uxv.name=Space Grade Epic Circuit Assembler IV
+gregtech.machine.space_circuit_assembler.uxv.tooltip=Computation Factory §3(Required to use in Space!)
+gregtech.machine.space_circuit_assembler.opv.name=Space Grade Legendary Circuit Assembler
+gregtech.machine.space_circuit_assembler.opv.tooltip=Computation Factory §3(Required to use in Space!)
+
+# Mass Fabricator
+gregtech.machine.space_mass_fabricator.lv.name=Space Grade Basic Mass Fabricator
+gregtech.machine.space_mass_fabricator.lv.tooltip=UUM = Matter * Fabrication Squared §3(Required to use in Space!)
+gregtech.machine.space_mass_fabricator.mv.name=Space Grade Advanced Mass Fabricator
+gregtech.machine.space_mass_fabricator.mv.tooltip=UUM = Matter * Fabrication Squared §3(Required to use in Space!)
+gregtech.machine.space_mass_fabricator.hv.name=Space Grade Advanced Mass Fabricator II
+gregtech.machine.space_mass_fabricator.hv.tooltip=UUM = Matter * Fabrication Squared §3(Required to use in Space!)
+gregtech.machine.space_mass_fabricator.ev.name=Space Grade Advanced Mass Fabricator III
+gregtech.machine.space_mass_fabricator.ev.tooltip=UUM = Matter * Fabrication Squared §3(Required to use in Space!)
+gregtech.machine.space_mass_fabricator.iv.name=Space Grade Elite Mass Fabricator
+gregtech.machine.space_mass_fabricator.iv.tooltip=Genesis Factory §3(Required to use in Space!)
+gregtech.machine.space_mass_fabricator.luv.name=Space Grade Elite Mass Fabricator II
+gregtech.machine.space_mass_fabricator.luv.tooltip=Genesis Factory §3(Required to use in Space!)
+gregtech.machine.space_mass_fabricator.zpm.name=Space Grade Elite Mass Fabricator III
+gregtech.machine.space_mass_fabricator.zpm.tooltip=Genesis Factory §3(Required to use in Space!)
+gregtech.machine.space_mass_fabricator.uv.name=Space Grade Ultimate Mass Fabricator
+gregtech.machine.space_mass_fabricator.uv.tooltip=Existence Initiator §3(Required to use in Space!)
+gregtech.machine.space_mass_fabricator.uhv.name=Space Grade Epic Mass Fabricator
+gregtech.machine.space_mass_fabricator.uhv.tooltip=Existence Initiator §3(Required to use in Space!)
+gregtech.machine.space_mass_fabricator.uev.name=Space Grade Epic Mass Fabricator II
+gregtech.machine.space_mass_fabricator.uev.tooltip=Existence Initiator §3(Required to use in Space!)
+gregtech.machine.space_mass_fabricator.uiv.name=Space Grade Epic Mass Fabricator III
+gregtech.machine.space_mass_fabricator.uiv.tooltip=Existence Initiator §3(Required to use in Space!)
+gregtech.machine.space_mass_fabricator.uxv.name=Space Grade Epic Mass Fabricator IV
+gregtech.machine.space_mass_fabricator.uxv.tooltip=Existence Initiator §3(Required to use in Space!)
+gregtech.machine.space_mass_fabricator.opv.name=Space Grade Legendary Mass Fabricator
+gregtech.machine.space_mass_fabricator.opv.tooltip=Existence Initiator §3(Required to use in Space!)
+
+# Replicator
+gregtech.machine.space_replicator.lv.name=Space Grade Basic Replicator
+gregtech.machine.space_replicator.lv.tooltip=Producing the Purest of Elements §3(Required to use in Space!)
+gregtech.machine.space_replicator.mv.name=Space Grade Advanced Replicator
+gregtech.machine.space_replicator.mv.tooltip=Producing the Purest of Elements §3(Required to use in Space!)
+gregtech.machine.space_replicator.hv.name=Space Grade Advanced Replicator II
+gregtech.machine.space_replicator.hv.tooltip=Producing the Purest of Elements §3(Required to use in Space!)
+gregtech.machine.space_replicator.ev.name=Space Grade Advanced Replicator III
+gregtech.machine.space_replicator.ev.tooltip=Producing the Purest of Elements §3(Required to use in Space!)
+gregtech.machine.space_replicator.iv.name=Space Grade Elite Replicator
+gregtech.machine.space_replicator.iv.tooltip=Matter Paster §3(Required to use in Space!)
+gregtech.machine.space_replicator.luv.name=Space Grade Elite Replicator II
+gregtech.machine.space_replicator.luv.tooltip=Matter Paster §3(Required to use in Space!)
+gregtech.machine.space_replicator.zpm.name=Space Grade Elite Replicator III
+gregtech.machine.space_replicator.zpm.tooltip=Matter Paster §3(Required to use in Space!)
+gregtech.machine.space_replicator.uv.name=Space Grade Ultimate Replicator
+gregtech.machine.space_replicator.uv.tooltip=Elemental Composer §3(Required to use in Space!)
+gregtech.machine.space_replicator.uhv.name=Space Grade Epic Replicator
+gregtech.machine.space_replicator.uhv.tooltip=Elemental Composer §3(Required to use in Space!)
+gregtech.machine.space_replicator.uev.name=Space Grade Epic Replicator II
+gregtech.machine.space_replicator.uev.tooltip=Elemental Composer §3(Required to use in Space!)
+gregtech.machine.space_replicator.uiv.name=Space Grade Epic Replicator III
+gregtech.machine.space_replicator.uiv.tooltip=Elemental Composer §3(Required to use in Space!)
+gregtech.machine.space_replicator.uxv.name=Space Grade Epic Replicator IV
+gregtech.machine.space_replicator.uxv.tooltip=Elemental Composer §3(Required to use in Space!)
+gregtech.machine.space_replicator.opv.name=Space Grade Legendary Replicator
+gregtech.machine.space_replicator.opv.tooltip=Elemental Composer §3(Required to use in Space!)
+
+# Scanner
+gregtech.machine.space_scanner.lv.name=Space Grade Basic Scanner
+gregtech.machine.space_scanner.lv.tooltip=Scans Materials and other things §3(Required to use in Space!)
+gregtech.machine.space_scanner.mv.name=Space Grade Advanced Scanner
+gregtech.machine.space_scanner.mv.tooltip=Scans Materials and other things §3(Required to use in Space!)
+gregtech.machine.space_scanner.hv.name=Space Grade Advanced Scanner II
+gregtech.machine.space_scanner.hv.tooltip=Scans Materials and other things §3(Required to use in Space!)
+gregtech.machine.space_scanner.ev.name=Space Grade Advanced Scanner III
+gregtech.machine.space_scanner.ev.tooltip=Scans Materials and other things §3(Required to use in Space!)
+gregtech.machine.space_scanner.iv.name=Space Grade Elite Scanner
+gregtech.machine.space_scanner.iv.tooltip=Anomaly Detector §3(Required to use in Space!)
+gregtech.machine.space_scanner.luv.name=Space Grade Elite Scanner II
+gregtech.machine.space_scanner.luv.tooltip=Anomaly Detector §3(Required to use in Space!)
+gregtech.machine.space_scanner.zpm.name=Space Grade Elite Scanner III
+gregtech.machine.space_scanner.zpm.tooltip=Anomaly Detector §3(Required to use in Space!)
+gregtech.machine.space_scanner.uv.name=Space Grade Ultimate Scanner
+gregtech.machine.space_scanner.uv.tooltip=Electron Microscope §3(Required to use in Space!)
+gregtech.machine.space_scanner.uhv.name=Space Grade Epic Scanner
+gregtech.machine.space_scanner.uhv.tooltip=Electron Microscope §3(Required to use in Space!)
+gregtech.machine.space_scanner.uev.name=Space Grade Epic Scanner II
+gregtech.machine.space_scanner.uev.tooltip=Electron Microscope §3(Required to use in Space!)
+gregtech.machine.space_scanner.uiv.name=Space Grade Epic Scanner III
+gregtech.machine.space_scanner.uiv.tooltip=Electron Microscope §3(Required to use in Space!)
+gregtech.machine.space_scanner.uxv.name=Space Grade Epic Scanner IV
+gregtech.machine.space_scanner.uxv.tooltip=Electron Microscope §3(Required to use in Space!)
+gregtech.machine.space_scanner.opv.name=Space Grade Legendary Scanner
+gregtech.machine.space_scanner.opv.tooltip=Electron Microscope §3(Required to use in Space!)

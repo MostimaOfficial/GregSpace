@@ -13,7 +13,7 @@ Singularity Multiblock
 	
 en_US localization
 
-Convert Galacticraft and ExtraPlanet materials into GT Materials
+Convert Galacticraft and ExtraPlanet materials into GT Materials [Heavy duty plates implemented, need to give recipes. Need to also do other materials]
 
 Space Macerator for some reason makes recipe takes an extra 2 EU/t?
 
@@ -30,6 +30,16 @@ Along with Quantum Rings
 
 UHV - MAX tier batteries
 
+UHV - MAX tier circuits and intermediate products needed to make said circuits
+
 Recipes for Dark Aether Portal and Light Aether Portal
 
 Lategame multiblock where you can get 10 crushed ore from an ore block
+
+Make rockets be crafted via assembly machine / assembly line
+
+Void Ore Miners that mine ores that you can only get in the dimension it is from
+
+Add MC4 Planets to a custom Galacticraft Galaxy
+
+Somehow make it possible where if you're wearing the Gravity suit, gravity is normal in any GC / ExtraPlanet planet

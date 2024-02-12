@@ -1,7 +1,9 @@
 package nepjr.gregspace.events;
 
-import nepjr.gregspace.Tags;
-import net.minecraftforge.event.entity.living.LivingEvent;
+import micdoodle8.mods.galacticraft.api.world.IGalacticraftWorldProvider;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraftforge.event.entity.living.LivingEvent.LivingUpdateEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
@@ -9,8 +11,14 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class GalacticraftEvents {
 
     @SubscribeEvent
-    public static void entityLivingEvent(LivingEvent.LivingUpdateEvent event)
+    public static void disableGCGravity(LivingUpdateEvent event)
     {
-        // do something to set gravity to normal idk
+        /* This shit is complicated man. I'm just gonna
+    	   use Adv Rocketry 2 for space stations lol
+    	   If someone wants to tackle this challenge
+    	   you're more than welcome to but for now
+    	   I ain't doin this it too complicated for
+    	   my small brain :sadge:
+    	*/
     }
 }

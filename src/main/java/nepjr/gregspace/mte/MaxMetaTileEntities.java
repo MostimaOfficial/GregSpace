@@ -10,12 +10,15 @@ import gregtech.api.metatileentity.multiblock.MultiblockControllerBase;
 import gregtech.api.recipes.RecipeMap;
 import gregtech.api.recipes.RecipeMaps;
 import gregtech.api.util.GTUtility;
+import gregtech.client.particle.VanillaParticleEffects;
 import gregtech.client.renderer.ICubeRenderer;
 import gregtech.client.renderer.texture.Textures;
 import gregtech.common.metatileentities.electric.*;
 import gregtech.common.metatileentities.multi.multiblockpart.MetaTileEntityFluidHatch;
 import gregtech.common.metatileentities.multi.multiblockpart.MetaTileEntityRotorHolder;
 import gregtech.integration.jei.multiblock.MultiblockInfoCategory;
+import nepjr.gregspace.api.metatileentity.SimpleSpaceMachineMetaTileEntityResizable;
+import nepjr.gregspace.recipe.ModRecipeMaps;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.Loader;
 
@@ -82,7 +85,27 @@ public class MaxMetaTileEntities {
 
     public static void init()
     {
-        // Alloy Smelter, IDs 80-94
+    	// Electric Furnace, IDs 50-64
+        registerSimpleMetaTileEntity(ELECTRIC_FURNACE, 50, "electric_furnace", RecipeMaps.FURNACE_RECIPES,
+                Textures.ELECTRIC_FURNACE_OVERLAY, true);
+
+        // Macerator, IDs 65-79
+        registerMetaTileEntities(MACERATOR, 65, "macerator",
+                (tier, voltageName) -> new SimpleMachineMetaTileEntityResizable(
+                        gregtechId(String.format("%s.%s", "macerator", voltageName)),
+                        ModRecipeMaps.MACERATOR_RECIPES,
+                        -1,
+                        switch (tier) {
+                            case 1, 2 -> 1;
+                            case 3 -> 3;
+                            default -> 4;
+                        },
+                        tier <= GTValues.MV ? Textures.MACERATOR_OVERLAY : Textures.PULVERIZER_OVERLAY,
+                        tier,
+                        true,
+                        GTUtility.defaultTankSizeFunction,
+                        VanillaParticleEffects.TOP_SMOKE_SMALL, null));
+    	// Alloy Smelter, IDs 80-94
         registerSimpleMetaTileEntity(ALLOY_SMELTER, 80, "alloy_smelter", RecipeMaps.ALLOY_SMELTER_RECIPES,
                 Textures.ALLOY_SMELTER_OVERLAY, true);
 

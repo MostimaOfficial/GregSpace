@@ -25,6 +25,7 @@ import nepjr.gregspace.GregSpace;
 import nepjr.gregspace.cfg.ModConfig;
 import nepjr.gregspace.client.GregSpaceTextures;
 import nepjr.gregspace.recipe.properties.SpaceDimensionProperty;
+import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fluids.capability.IFluidHandler;
@@ -34,6 +35,7 @@ import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.IItemHandlerModifiable;
 
 import org.apache.commons.lang3.ArrayUtils;
+import org.apache.commons.lang3.tuple.Pair;
 import org.apache.logging.log4j.Level;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -101,17 +103,23 @@ public class SimpleSpaceMachineMetaTileEntity extends SimpleMachineMetaTileEntit
     }
     
     @SideOnly(Side.CLIENT)
-    protected SimpleSidedCubeRenderer getBaseRenderer() {
+    private ICubeRenderer getRenderer() {
         return GregSpaceTextures.SPACE_VOLTAGE_CASINGS[this.getTier()];
     }
-    
+
+    @Override
+    @SideOnly(Side.CLIENT)
+    public Pair<TextureAtlasSprite, Integer> getParticleTexture() {
+        return Pair.of(getRenderer().getParticleSprite(), getPaintingColorForRendering());
+    }
+
     @Override
     @SideOnly(Side.CLIENT)
     public void renderMetaTileEntity(CCRenderState renderState, Matrix4 translation, IVertexOperation[] pipeline) {
     	super.renderMetaTileEntity(renderState, translation, pipeline);
     	IVertexOperation[] colouredPipeline = ArrayUtils.add(pipeline,
-    			new ColourMultiplier(GTUtility.convertRGBtoOpaqueRGBA_CL(getPaintingColorForRendering())));
-        getBaseRenderer().render(renderState, translation, colouredPipeline);
+                new ColourMultiplier(GTUtility.convertRGBtoOpaqueRGBA_CL(getPaintingColorForRendering())));
+        getRenderer().render(renderState, translation, colouredPipeline);
     }
 
     protected boolean checkRecipe(@NotNull Recipe recipe) {

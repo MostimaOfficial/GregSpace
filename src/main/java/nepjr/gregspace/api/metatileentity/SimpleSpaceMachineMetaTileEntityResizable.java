@@ -2,7 +2,6 @@ package nepjr.gregspace.api.metatileentity;
 
 import gregtech.api.capability.impl.NotifiableItemStackHandler;
 import gregtech.api.metatileentity.MetaTileEntity;
-import gregtech.api.metatileentity.SimpleMachineMetaTileEntity;
 import gregtech.api.metatileentity.interfaces.IGregTechTileEntity;
 import gregtech.api.recipes.RecipeMap;
 import gregtech.client.particle.IMachineParticleEffect;
@@ -92,10 +91,10 @@ public class SimpleSpaceMachineMetaTileEntityResizable extends SimpleSpaceMachin
         }
         return super.createExportItemHandler();
     }
-
+    
     @Override
     public MetaTileEntity createMetaTileEntity(IGregTechTileEntity tileEntity) {
-        return new gregtech.common.metatileentities.electric.SimpleMachineMetaTileEntityResizable(metaTileEntityId, workable.getRecipeMap(), inputAmount,
+        return new SimpleSpaceMachineMetaTileEntityResizable(metaTileEntityId, workable.getRecipeMap(), inputAmount,
                 outputAmount, renderer, getTier(), hasFrontFacing(),
                 getTankScalingFunction(), tickingParticle, randomParticle);
     }

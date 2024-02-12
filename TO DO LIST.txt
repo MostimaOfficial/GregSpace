@@ -1,8 +1,6 @@
 Make Dark Aether Reactor generate 8192 * Coil Temperature per tick [done]
 
-Make recipes for MC4 stuff
-
-Make Space machinery actually work in space lol
+Make Space machinery actually work in space lol [done]
 
 Singularity Multiblock
 	Based on Fusion Reactor
@@ -17,12 +15,6 @@ Convert Galacticraft and ExtraPlanet materials into GT Materials [Heavy duty pla
 
 Space Macerator for some reason makes recipe takes an extra 2 EU/t?
 
-MC4 blueprints used to make data orbs/sticks of actual upgrades
-
-Tweak Power Beam damage values, specifically, 2d plasma being 7.5 multiplier for dmg
-
-Dark Aether stones have dark stone dust, can be centrifuged into tiny dark aether crystals
-
 Industrial furnace, turns ore into 5 molten ingots
 
 Make ender chests locked behind either OpV or MAX
@@ -32,14 +24,10 @@ UHV - MAX tier batteries
 
 UHV - MAX tier circuits and intermediate products needed to make said circuits
 
-Recipes for Dark Aether Portal and Light Aether Portal
-
 Lategame multiblock where you can get 10 crushed ore from an ore block
 
 Make rockets be crafted via assembly machine / assembly line
 
 Void Ore Miners that mine ores that you can only get in the dimension it is from
 
-Add MC4 Planets to a custom Galacticraft Galaxy
-
-Somehow make it possible where if you're wearing the Gravity suit, gravity is normal in any GC / ExtraPlanet planet
+Setup Advanced Rocketry 2 only for Space Station stuff

@@ -1,4 +1,4 @@
-package nepjr.gregspace.mte;
+package nepjr.gregspace.api.metatileentity;
 
 import gregtech.api.capability.IEnergyContainer;
 import gregtech.api.capability.impl.GhostCircuitItemStackHandler;
@@ -7,6 +7,7 @@ import gregtech.api.items.itemhandlers.GTItemStackHandler;
 import gregtech.api.metatileentity.MetaTileEntity;
 import gregtech.api.metatileentity.SimpleMachineMetaTileEntity;
 import gregtech.api.metatileentity.interfaces.IGregTechTileEntity;
+import gregtech.api.metatileentity.multiblock.IMultiblockPart;
 import gregtech.api.recipes.Recipe;
 import gregtech.api.recipes.RecipeMap;
 import gregtech.api.recipes.RecipeMaps;
@@ -15,22 +16,32 @@ import gregtech.api.util.GTUtility;
 import gregtech.client.particle.IMachineParticleEffect;
 import gregtech.client.renderer.ICubeRenderer;
 import gregtech.client.renderer.texture.Textures;
+import gregtech.client.renderer.texture.cube.SimpleSidedCubeRenderer;
 import gregtech.common.metatileentities.electric.MetaTileEntityGasCollector;
 import io.netty.handler.logging.LogLevel;
 import it.unimi.dsi.fastutil.ints.IntArrays;
 import it.unimi.dsi.fastutil.ints.IntLists;
 import nepjr.gregspace.GregSpace;
 import nepjr.gregspace.cfg.ModConfig;
+import nepjr.gregspace.client.GregSpaceTextures;
 import nepjr.gregspace.recipe.properties.SpaceDimensionProperty;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fluids.capability.IFluidHandler;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.IItemHandlerModifiable;
 
+import org.apache.commons.lang3.ArrayUtils;
 import org.apache.logging.log4j.Level;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
+
+import codechicken.lib.render.CCRenderState;
+import codechicken.lib.render.pipeline.ColourMultiplier;
+import codechicken.lib.render.pipeline.IVertexOperation;
+import codechicken.lib.vec.Matrix4;
 
 import java.util.function.Function;
 import java.util.function.Supplier;
@@ -87,6 +98,20 @@ public class SimpleSpaceMachineMetaTileEntity extends SimpleMachineMetaTileEntit
     @Override
     protected RecipeLogicEnergy createWorkable(RecipeMap<?> recipeMap) {
         return new SpaceRecipeLogic(this, recipeMap, () -> energyContainer);
+    }
+    
+    @SideOnly(Side.CLIENT)
+    protected SimpleSidedCubeRenderer getBaseRenderer() {
+        return GregSpaceTextures.SPACE_VOLTAGE_CASINGS[this.getTier()];
+    }
+    
+    @Override
+    @SideOnly(Side.CLIENT)
+    public void renderMetaTileEntity(CCRenderState renderState, Matrix4 translation, IVertexOperation[] pipeline) {
+    	super.renderMetaTileEntity(renderState, translation, pipeline);
+    	IVertexOperation[] colouredPipeline = ArrayUtils.add(pipeline,
+    			new ColourMultiplier(GTUtility.convertRGBtoOpaqueRGBA_CL(getPaintingColorForRendering())));
+        getBaseRenderer().render(renderState, translation, colouredPipeline);
     }
 
     protected boolean checkRecipe(@NotNull Recipe recipe) {

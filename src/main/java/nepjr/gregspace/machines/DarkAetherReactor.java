@@ -25,7 +25,7 @@ import gregtech.common.blocks.BlockWireCoil;
 import gregtech.common.blocks.MetaBlocks;
 import gregtech.core.sound.GTSoundEvents;
 import nepjr.gregspace.blocks.ModMetaBlocks;
-import nepjr.gregspace.blocks.MostimaCasing;
+import nepjr.gregspace.blocks.GregSpaceCasing;
 import nepjr.gregspace.machines.logic.DarkAetherReactorLogic;
 import nepjr.gregspace.recipe.ModRecipeMaps;
 import net.minecraft.block.state.IBlockState;
@@ -108,7 +108,7 @@ public class DarkAetherReactor extends FuelMultiblockController implements IHeat
 
     protected IBlockState getCasingState() {
         //return MetaBlocks.COMPRESSED_BLOCKS.get(MostimaMaterials.aetherCrystalDark.getId()).getBlock(MostimaMaterials.aetherCrystalDark);
-        return ModMetaBlocks.MOSTIMA_CASING.getState(MostimaCasing.CasingType.DARK_CRYSTAL_CASING);
+        return ModMetaBlocks.MOSTIMA_CASING.getState(GregSpaceCasing.CasingType.DARK_CRYSTAL_CASING);
     }
 
     @Override

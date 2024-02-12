@@ -15,12 +15,12 @@ public class ModMetaBlocks {
     private ModMetaBlocks() {
     }
 
-    public static MostimaCasing MOSTIMA_CASING;
+    public static GregSpaceCasing MOSTIMA_CASING;
 
     public static void init()
     {
-        MOSTIMA_CASING = new MostimaCasing();
-        MOSTIMA_CASING.setRegistryName("mostima_casing");
+        MOSTIMA_CASING = new GregSpaceCasing();
+        MOSTIMA_CASING.setRegistryName("gregspace_casing");
     }
 
     @SideOnly(Side.CLIENT)

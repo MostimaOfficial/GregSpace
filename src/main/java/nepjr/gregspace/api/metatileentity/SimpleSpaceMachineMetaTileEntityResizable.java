@@ -1,4 +1,4 @@
-package nepjr.gregspace.mte;
+package nepjr.gregspace.api.metatileentity;
 
 import gregtech.api.capability.impl.NotifiableItemStackHandler;
 import gregtech.api.metatileentity.MetaTileEntity;
@@ -7,7 +7,6 @@ import gregtech.api.metatileentity.interfaces.IGregTechTileEntity;
 import gregtech.api.recipes.RecipeMap;
 import gregtech.client.particle.IMachineParticleEffect;
 import gregtech.client.renderer.ICubeRenderer;
-
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.items.IItemHandlerModifiable;
 

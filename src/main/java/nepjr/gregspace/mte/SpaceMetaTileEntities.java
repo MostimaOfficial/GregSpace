@@ -49,7 +49,8 @@ import gregtech.common.metatileentities.storage.*;
 import gregtech.common.pipelike.fluidpipe.longdistance.MetaTileEntityLDFluidEndpoint;
 import gregtech.common.pipelike.itempipe.longdistance.MetaTileEntityLDItemEndpoint;
 import gregtech.integration.jei.multiblock.MultiblockInfoCategory;
-
+import nepjr.gregspace.api.metatileentity.SimpleSpaceMachineMetaTileEntity;
+import nepjr.gregspace.api.metatileentity.SimpleSpaceMachineMetaTileEntityResizable;
 import nepjr.gregspace.recipe.ModRecipeMaps;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.Loader;

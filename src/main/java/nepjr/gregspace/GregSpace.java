@@ -22,6 +22,7 @@ import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.lwjgl.opengl.Display;
 
 @Mod(modid = Tags.MODID, version = Tags.VERSION, name = Tags.MODNAME, acceptedMinecraftVersions = "[1.12.2]", dependencies = GTInternalTags.DEP_VERSION_STRING)
 public class GregSpace {
@@ -43,6 +44,7 @@ public class GregSpace {
         SpaceMetaTileEntities.init();
         RegularMetaTileEntities.init();
         proxy.preLoad();
+        Display.setTitle(Tags.MODNAME + " " + Tags.VERSION);
     }
 
     @SubscribeEvent

@@ -11,11 +11,11 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import org.jetbrains.annotations.NotNull;
 
-public class MostimaCasing extends VariantBlock<MostimaCasing.CasingType> {
+public class GregSpaceCasing extends VariantBlock<GregSpaceCasing.CasingType> {
 
-    public MostimaCasing() {
+    public GregSpaceCasing() {
         super(Material.IRON);
-        setTranslationKey("mostima_casing");
+        setTranslationKey("gregspace_casing");
         setHardness(5.0f);
         setResistance(10.0f);
         setSoundType(SoundType.METAL);

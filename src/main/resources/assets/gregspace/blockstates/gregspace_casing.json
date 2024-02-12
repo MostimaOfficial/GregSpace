@@ -11,13 +11,13 @@
       "dark_crystal_casing": {
         "model": "minecraft:cube_all",
         "textures": {
-          "all": "gregtech:blocks/casings/mostima_casing/dark_crystal_casing"
+          "all": "gregtech:blocks/casings/gregspace_casing/dark_crystal_casing"
         }
       },
       "mostimite_casing": {
         "model": "minecraft:cube_all",
         "textures": {
-          "all": "gregtech:blocks/casings/mostima_casing/mostimite_casing"
+          "all": "gregtech:blocks/casings/gregspace_casing/mostimite_casing"
         }
       }
     }

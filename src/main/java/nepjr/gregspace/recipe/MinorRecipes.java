@@ -4,7 +4,7 @@ import gregtech.api.recipes.RecipeMaps;
 import gregtech.api.unification.material.Materials;
 import gregtech.api.unification.ore.OrePrefix;
 import gregtech.common.items.MetaItems;
-import nepjr.gregspace.material.MostimaMaterials;
+import nepjr.gregspace.material.GregSpaceMaterials;
 import static gregtech.api.GTValues.*;
 import static gregtech.api.unification.material.Materials.DistilledWater;
 
@@ -14,8 +14,8 @@ public class MinorRecipes
     {
         // Dark Aether Reactor Recipes
         ModRecipeMaps.DARK_AETHER_REACTOR.recipeBuilder()
-                .input(OrePrefix.gem, MostimaMaterials.aetherCrystalDark, 1)
-                .output(OrePrefix.gem, MostimaMaterials.aetherCrystalLight, 1)
+                .input(OrePrefix.gem, GregSpaceMaterials.aetherCrystalDark, 1)
+                .output(OrePrefix.gem, GregSpaceMaterials.aetherCrystalLight, 1)
                 .EUt(8192)
                 .duration(1)
                 .buildAndRegister();
@@ -28,7 +28,7 @@ public class MinorRecipes
                 .buildAndRegister();
         
         RecipeMaps.STEAM_TURBINE_FUELS.recipeBuilder()
-                .fluidInputs(MostimaMaterials.steam_5000c.getFluid(640))
+                .fluidInputs(GregSpaceMaterials.steam_5000c.getFluid(640))
                 .fluidOutputs(DistilledWater.getFluid(40))
                 .duration(10)
                 .EUt((int) V[EV])

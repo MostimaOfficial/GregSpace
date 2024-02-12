@@ -20,7 +20,7 @@ import static gregtech.api.unification.material.Materials.*;
 import static gregtech.api.unification.material.info.MaterialFlags.*;
 import static gregtech.api.util.GTUtility.gregtechId;
 @Mod.EventBusSubscriber(modid = Tags.MODID)
-public class MostimaMaterials
+public class GregSpaceMaterials
 {
     public static Material aetherCrystalDark;
     public static Material aetherCrystalLight;
@@ -34,21 +34,21 @@ public class MostimaMaterials
     @SubscribeEvent(priority = EventPriority.HIGH)
     public static void register(MaterialEvent event)
     {
-        MostimaMaterials.aetherCrystalDark = new Material.Builder(4000, gregtechId("aether_crystal_dark"))
+        GregSpaceMaterials.aetherCrystalDark = new Material.Builder(4000, gregtechId("aether_crystal_dark"))
                 .color(0x301934)
                 .iconSet(MaterialIconSet.DIAMOND)
                 .gem()
                 .fluid()
                 .build();
 
-        MostimaMaterials.aetherCrystalLight = new Material.Builder(4001, gregtechId("aether_crystal_light"))
+        GregSpaceMaterials.aetherCrystalLight = new Material.Builder(4001, gregtechId("aether_crystal_light"))
                 .color(0xFFFFFF)
                 .iconSet(MaterialIconSet.DIAMOND)
                 .gem()
                 .fluid()
                 .build();
 
-        MostimaMaterials.infinity = new Material.Builder(4002, gregtechId("infinity"))
+        GregSpaceMaterials.infinity = new Material.Builder(4002, gregtechId("infinity"))
                 .color(0xFF00FF)
                 .iconSet(MaterialIconSet.METALLIC)
                 .flags(EXT_METAL, GENERATE_BOLT_SCREW, GENERATE_FRAME, GENERATE_GEAR, GENERATE_LONG_ROD,
@@ -56,7 +56,7 @@ public class MostimaMaterials
                 .rotorStats(2048, 1024, 1000000)
                 .build();
 
-        MostimaMaterials.steam_5000c = new Material.Builder(4003, gregtechId("steam_5000_c"))
+        GregSpaceMaterials.steam_5000c = new Material.Builder(4003, gregtechId("steam_5000_c"))
                 .gas(new FluidBuilder()
                         .temperature(5000)
                         .customStill())

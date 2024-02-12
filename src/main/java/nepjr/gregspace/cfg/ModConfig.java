@@ -10,6 +10,10 @@ public class ModConfig
 	@Config.Name("Space Options")
 	public static SpaceMachineOptions space = new SpaceMachineOptions();
 	
+	@Config.Comment("Options to configure the solar efficiency of planets")
+	@Config.Name("Solar Efficiency Options")
+	public static SolarEfficiency solarEfficiency = new SolarEfficiency();
+	
 	public static class SpaceMachineOptions
 	{
 		@Config.Comment("What dimensions are considered space? If you have GalactiCraft or Advanced Rocketry 2 installed for example, you should set it to the dimension IDs of space stations and planets/moons")
@@ -34,5 +38,12 @@ public class ModConfig
 														  , "gregtech.machine.gas_collector.opv"
 														  , "gregtech.machine.gas_collector.max"};
 		
+	}
+	
+	public static class SolarEfficiency
+	{
+		@Config.Comment("Solar efficiency for the space station")
+		@Config.Name("Space station efficiency")
+		public int efficiencySpaceStation = 5;
 	}
 }

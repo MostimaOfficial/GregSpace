@@ -6,6 +6,7 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraftforge.event.entity.living.LivingEvent.LivingUpdateEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import nepjr.gregspace.Tags;
 
 @Mod.EventBusSubscriber(modid = Tags.MODID)
 public class GalacticraftEvents {

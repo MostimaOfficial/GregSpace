@@ -1,16 +1,9 @@
 package nepjr.gregspace.material;
 
 import gregtech.api.fluids.FluidBuilder;
-import gregtech.api.unification.Elements;
-import gregtech.api.unification.material.MarkerMaterials;
 import gregtech.api.unification.material.Material;
-import gregtech.api.unification.material.Materials;
 import gregtech.api.unification.material.event.MaterialEvent;
-import gregtech.api.unification.material.info.MaterialFlag;
-import gregtech.api.unification.material.info.MaterialFlags;
 import gregtech.api.unification.material.info.MaterialIconSet;
-import gregtech.api.unification.material.properties.ToolProperty;
-import gregtech.api.unification.stack.MaterialStack;
 import nepjr.gregspace.Tags;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;

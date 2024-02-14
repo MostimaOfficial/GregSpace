@@ -1,5 +1,6 @@
 package nepjr.gregspace.cfg;
 
+import micdoodle8.mods.galacticraft.core.util.ConfigManagerCore;
 import nepjr.gregspace.Tags;
 import net.minecraftforge.common.config.Config;
 
@@ -13,6 +14,11 @@ public class ModConfig
 	@Config.Comment("Options to configure the solar efficiency of planets")
 	@Config.Name("Solar Efficiency Options")
 	public static SolarEfficiency solarEfficiency = new SolarEfficiency();
+	
+	@Config.Comment("Set dimension IDs of dimensions")
+	@Config.Name("Dim IDs")
+	@Config.RequiresMcRestart
+	public static DimIDs dim = new DimIDs();
 	
 	public static class SpaceMachineOptions
 	{
@@ -45,5 +51,12 @@ public class ModConfig
 		@Config.Comment("Solar efficiency for the space station")
 		@Config.Name("Space station efficiency")
 		public int efficiencySpaceStation = 5;
+	}
+	
+	public static class DimIDs
+	{
+		@Config.Comment("Dimension ID for the Space Station")
+		@Config.Name("Space Station ID")
+		public int spaceStationId = ConfigManagerCore.idDimensionOverworldOrbit;
 	}
 }

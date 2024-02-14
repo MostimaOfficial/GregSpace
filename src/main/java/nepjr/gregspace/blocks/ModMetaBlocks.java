@@ -1,6 +1,5 @@
 package nepjr.gregspace.blocks;
 
-import gregtech.common.blocks.BlockMultiblockCasing;
 import gregtech.common.blocks.MetaBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;

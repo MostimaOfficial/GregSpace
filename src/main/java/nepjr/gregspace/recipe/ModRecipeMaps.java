@@ -1,20 +1,10 @@
 package nepjr.gregspace.recipe;
 
-import gregtech.api.GTValues;
 import gregtech.api.gui.GuiTextures;
 import gregtech.api.gui.widgets.ProgressWidget;
 import gregtech.api.gui.widgets.ProgressWidget.MoveType;
-import gregtech.api.recipes.RecipeBuilder;
 import gregtech.api.recipes.RecipeMap;
-import gregtech.api.recipes.RecipeMaps;
-import gregtech.api.recipes.RecyclingHandler;
 import gregtech.api.recipes.builders.*;
-import gregtech.api.recipes.ingredients.GTRecipeInput;
-import gregtech.api.recipes.machines.*;
-import gregtech.api.unification.OreDictUnifier;
-import gregtech.api.unification.material.Materials;
-import gregtech.api.unification.stack.ItemMaterialInfo;
-import gregtech.api.util.AssemblyLineManager;
 import gregtech.core.sound.GTSoundEvents;
 
 import nepjr.gregspace.recipe.builders.SimpleSpaceRecipeBuilder;
@@ -22,8 +12,6 @@ import nepjr.gregspace.recipe.builders.SimpleSpaceRecipeBuilder;
 import crafttweaker.annotations.ZenRegister;
 import stanhebben.zenscript.annotations.ZenClass;
 import stanhebben.zenscript.annotations.ZenProperty;
-
-import static gregtech.api.GTValues.*;
 
 @ZenClass("mostima.addon.gregtech.recipe.ModRecipeMaps")
 @ZenRegister
@@ -58,6 +46,12 @@ public class ModRecipeMaps {
             .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, ProgressWidget.MoveType.HORIZONTAL)
             .setSound(GTSoundEvents.FURNACE);
 
+    @ZenProperty
+    public static final RecipeMap<SimpleRecipeBuilder> SOLAR_ARRAY = new RecipeMap<>("none", 0, 0, 0, 0, 
+    		new SimpleRecipeBuilder(), false)
+    		.setSlotOverlay(false, false, GuiTextures.ATOMIC_OVERLAY_1)
+    		.setProgressBar(GuiTextures.BUTTON_VOID_NONE, ProgressWidget.MoveType.CIRCULAR)
+    		.setSound(GTSoundEvents.REPLICATOR);
 
 
 }

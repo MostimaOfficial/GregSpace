@@ -2,9 +2,6 @@ package nepjr.gregspace.machines.logic;
 
 import gregtech.api.capability.IHeatingCoil;
 import gregtech.api.capability.impl.MultiblockFuelRecipeLogic;
-import gregtech.api.capability.impl.MultiblockRecipeLogic;
-import gregtech.api.metatileentity.multiblock.RecipeMapMultiblockController;
-import gregtech.api.recipes.Recipe;
 import nepjr.gregspace.machines.DarkAetherReactor;
 
 public class DarkAetherReactorLogic extends MultiblockFuelRecipeLogic {

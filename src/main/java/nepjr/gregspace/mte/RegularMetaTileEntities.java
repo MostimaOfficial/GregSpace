@@ -1,6 +1,12 @@
 package nepjr.gregspace.mte;
 
-import gregicality.multiblocks.api.render.GCYMTextures;
+import static gregtech.api.util.GTUtility.gregtechId;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.function.BiFunction;
+import java.util.function.Function;
+
 import gregtech.api.GTValues;
 import gregtech.api.GregTechAPI;
 import gregtech.api.metatileentity.MetaTileEntity;
@@ -11,20 +17,10 @@ import gregtech.api.metatileentity.multiblock.MultiblockControllerBase;
 import gregtech.api.recipes.RecipeMap;
 import gregtech.api.util.GTUtility;
 import gregtech.client.renderer.ICubeRenderer;
-import gregtech.client.renderer.texture.Textures;
-import gregtech.common.blocks.BlockTurbineCasing;
-import gregtech.common.blocks.MetaBlocks;
 import gregtech.integration.jei.multiblock.MultiblockInfoCategory;
 import nepjr.gregspace.machines.DarkAetherReactor;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.Loader;
-
-import java.util.HashMap;
-import java.util.Map;
-import java.util.function.BiFunction;
-import java.util.function.Function;
-
-import static gregtech.api.util.GTUtility.gregtechId;
 
 
 public class RegularMetaTileEntities {
@@ -50,7 +46,8 @@ public class RegularMetaTileEntities {
                 tankScalingFunction);
     }
 
-    private static void registerSimpleMetaTileEntity(SimpleMachineMetaTileEntity[] machines,
+    @SuppressWarnings("unused")
+	private static void registerSimpleMetaTileEntity(SimpleMachineMetaTileEntity[] machines,
                                                      int startId,
                                                      String name,
                                                      RecipeMap<?> map,

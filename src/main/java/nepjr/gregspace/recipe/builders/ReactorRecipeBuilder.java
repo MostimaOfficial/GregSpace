@@ -1,14 +1,14 @@
 package nepjr.gregspace.recipe.builders;
 
+import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.jetbrains.annotations.NotNull;
+
 import gregtech.api.recipes.Recipe;
 import gregtech.api.recipes.RecipeBuilder;
 import gregtech.api.recipes.RecipeMap;
-import gregtech.api.recipes.builders.BlastRecipeBuilder;
 import gregtech.api.recipes.recipeproperties.TemperatureProperty;
 import gregtech.api.util.EnumValidationResult;
 import gregtech.api.util.GTLog;
-import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.jetbrains.annotations.NotNull;
 
 public class ReactorRecipeBuilder extends RecipeBuilder<ReactorRecipeBuilder> {
 

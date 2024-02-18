@@ -10,7 +10,6 @@ import nepjr.gregspace.cfg.ModConfig;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.util.text.Style;
-import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraftforge.event.world.BlockEvent.EntityPlaceEvent;
@@ -33,7 +32,6 @@ public class SpaceMachineEvents
 				{	
 					MetaTileEntity machine = GTUtility.getMetaTileEntity(player.getHeldItemMainhand());
 					String machineName = machine.getMetaName();
-					player.sendMessage(new TextComponentString(machineName));
 					if(!(machineName.contains(".space_")))
 					{
 						if(!(ArrayUtils.contains(ModConfig.space.allowedMachines, machineName)))
@@ -49,7 +47,6 @@ public class SpaceMachineEvents
 				{	
 					MetaTileEntity machine = GTUtility.getMetaTileEntity(player.getHeldItemOffhand());
 					String machineName = machine.getMetaName();
-					player.sendMessage(new TextComponentString(machineName));
 					if(!(machineName.contains(".space_")))
 					{
 						if(!(ArrayUtils.contains(ModConfig.space.allowedMachines, machineName)))

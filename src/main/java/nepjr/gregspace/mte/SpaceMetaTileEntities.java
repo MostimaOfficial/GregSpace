@@ -75,8 +75,6 @@ public class SpaceMetaTileEntities {
     // public static final SimpleSpaceMachineMetaTileEntity[] REPLICATOR = new SimpleSpaceMachineMetaTileEntity[GTValues.V.length
     // - 1];
     public static final SimpleSpaceMachineMetaTileEntity[] SCANNER = new SimpleSpaceMachineMetaTileEntity[GTValues.V.length];
-    public static final MetaTileEntityGasCollector[] GAS_COLLECTOR = new MetaTileEntityGasCollector[GTValues.V.length];
-    public static final MetaTileEntityRockBreaker[] ROCK_BREAKER = new MetaTileEntityRockBreaker[GTValues.V.length];
 
     // Used for addons if they wish to disable certain tiers of machines
     private static final Map<String, Boolean> MID_TIER = new HashMap<>();
@@ -227,14 +225,6 @@ public class SpaceMetaTileEntities {
         // Packer, IDs 500-514
         registerSimpleMetaTileEntity(PACKER, 500, "space_packer", RecipeMaps.PACKER_RECIPES, Textures.PACKER_OVERLAY, true);
 
-        // FREE, IDs 515-529
-
-        // Gas Collectors, IDs 530-544
-        registerMetaTileEntities(GAS_COLLECTOR, 530, "space_gas_collector",
-                (tier, voltageName) -> new MetaTileEntityGasCollector(
-                        gregtechId(String.format("%s.%s", "space_gas_collector", voltageName)),
-                        RecipeMaps.GAS_COLLECTOR_RECIPES, Textures.GAS_COLLECTOR_OVERLAY, tier, false,
-                        GTUtility.largeTankSizeFunction));
         // Polarizer, IDs 545-559
         registerSimpleMetaTileEntity(POLARIZER, 545, "space_polarizer", RecipeMaps.POLARIZER_RECIPES,
                 Textures.POLARIZER_OVERLAY, true);
@@ -259,12 +249,6 @@ public class SpaceMetaTileEntities {
         // Circuit Assembler, IDs 650-664
         registerSimpleMetaTileEntity(CIRCUIT_ASSEMBLER, 635, "space_circuit_assembler", RecipeMaps.CIRCUIT_ASSEMBLER_RECIPES,
                 Textures.ASSEMBLER_OVERLAY, true, GTUtility.hvCappedTankSizeFunction);
-
-        // Rock Breaker, IDs 665-679
-        registerMetaTileEntities(ROCK_BREAKER, 665, "space_rock_breaker",
-                (tier, voltageName) -> new MetaTileEntityRockBreaker(
-                        gregtechId(String.format("%s.%s", "space_rock_breaker", voltageName)),
-                        RecipeMaps.ROCK_BREAKER_RECIPES, Textures.ROCK_BREAKER_OVERLAY, tier));
 
         // Some space here for more SimpleMachines
 
